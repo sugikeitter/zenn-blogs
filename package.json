@@ -1,0 +1,23 @@
+{
+  "name": "zenn-blogs",
+  "version": "1.0.0",
+  "description": "Zennとの連携リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugikeitter/zenn-blogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sugikeitter/zenn-blogs/issues"
+  },
+  "homepage": "https://github.com/sugikeitter/zenn-blogs#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.89"
+  }
+}
