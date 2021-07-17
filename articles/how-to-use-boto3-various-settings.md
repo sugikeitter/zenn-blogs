@@ -144,7 +144,7 @@ Configを利用するとREST APIの挙動に関わる設定が可能。Configが
 import boto3
 # リトライをStandardモードに設定
 s3_client = boto3.client('s3', config=Config(retries={'mode': 'standard'}))
-ddb_resource = my_session.resource('dynamodb', config=Config(retries={'mode': 'standard'}))
+ddb_resource = boto3.resource('dynamodb', config=Config(retries={'mode': 'standard'}))
 ```
 
 他にもConfigで指定できるのはいくつかあるが、だいたいはデフォルト値で大きな問題はでない気がする。
