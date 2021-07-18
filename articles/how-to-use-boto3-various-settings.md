@@ -1,5 +1,5 @@
 ---
-title: "Boto3の設定あれこれ（profile名、アクセスキー、Config、ログの設定とか）"
+title: "Boto3の設定あれこれ（profile名、アクセスキー、Config、DEBUGログの設定とか）"
 emoji: "🧑‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "python", "プログラミング", "boto3"]
@@ -7,7 +7,7 @@ published: true
 ---
 
 # はじめに
-ローカル環境でBoto3を利用する時にコード内でprofile名を指定したり、アクセスキーを埋め込むことがある。それ以外にBoto3利用時にはConfigやログ出力を設定することもでき、こちらは開発環境や本番環境でも活用できる。これらの設定は[公式ドキュメント](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)に記載されているがそれぞれ別のページに記載されているため、自分が一覧で見やすいようこの記事にまとめた(ง •̀_•́)ง
+ローカル環境でBoto3を利用する時にコード内でprofile名を指定したり、アクセスキーを埋め込むことがある。それ以外にBoto3利用時にはConfigやDEBUGログ出力を設定することもでき、こちらは開発環境や本番環境でも活用できる。これらの設定は[公式ドキュメント](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)に記載されているがそれぞれ別のページに記載されているため、自分が一覧で見やすいようこの記事にまとめた(ง •̀_•́)ง
 
 Boto3自体を詳しく知りたい場合は、以下の記事も読んでみてください。
 https://zenn.dev/sugikeitter/articles/6648845968cec6
