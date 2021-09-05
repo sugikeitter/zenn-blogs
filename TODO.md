@@ -3,4 +3,5 @@
   - マネコンで設定すると、実際はSSM ステートマネージャーに`SystemAssociationForSsmAgentUpdate`という関連付けの名前で`AWS-UpdateSSMAgent`ドキュメントが実行されるようになってる
   - SSMのフリートマネージャーのマネコンからエージェントの自動更新をONではないので、CFnで実施したらマネコン表示はどうなるのか？
     - 同じ名前で作成するとフリートマネージャーのマネコンも自動更新をONにした状態に変わってる（関連付の名前を"SystemAssociationForSsmAgentUpdate"以外で作った場合は変わらない）
+    - すでにマネコンで設定していても、関連IDが別で同じ関連付けの名前のものができるためエラーにならない
   - Organizations(ControlTower?)と組み合わせて、アカウント作成したら(Organizationsに参加したら)自動でONできるようにするとこまでやる
