@@ -111,6 +111,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| Amazon DynamoDB Deep Dive - AWS Summit Tokyo 2019|[`YouTube`](https://www.youtube.com/watch?v=16RYHfe89WY)| DynamoDB の基本から内部構造の詳細、デザインパターンなどの発展的な情報まで。|
 |`300`| [RDB と DynamoDB のデータベース設計プロセスの違い](https://www.slideshare.net/AmazonWebServicesJapan/db-20190905/18)| -| 2019/09/05 に開催された AWS のイベント、「イチから理解するサーバーレスアプリ開発」における講演資料の一つ。|
+|`---`| [PayPayでのDynamoDB活用事例について - Speaker Deck](https://speakerdeck.com/paypay/paypaydefalsedynamodbhuo-yong-shi-li-nituite)| -| PayPay の通知機能を実装するDB選定で DynamoDB を選択した理由など。|
+|`---`| [サーバレスアーキテクチャで実現した M-1 グランプリ敗者復活戦投票システム](https://d0.awsstatic.com/events/jp/2017/summit/slide/D3T5-3.pdf) -| M-1 グランプリ2016の敗者復活戦投票システムの DB に DynamoDB を選択した理由など。|
 
 ## EBS
 |Lv.|タイトル|動画URL||
@@ -174,6 +176,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL||
 |---|---|---|---|
 |`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
+|`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
 
 ## SQS
 |Lv.|タイトル|動画URL||
@@ -194,7 +197,128 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 
 # カテゴリ別
 
-## サーバーレス / Serverless
+## Availability
 |Lv.|タイトル|動画URL||
 |---|---|---|---|
-||https://serverlessland.com/||
+|`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| |
+
+## Backup / Disaster Recovery
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`300`| [Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)| -| |
+
+## Cache
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [Webアプリケーションのキャッシュ戦略とそのパターン / Pattern and Strategy of Web Application Caching - Speaker Deck](https://speakerdeck.com/moznion/pattern-and-strategy-of-web-application-caching)| -| |
+
+## CI / CD
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [GitHub Actions の self-hosted runners を AWS ECS で動かして、CI / CD パイプラインを作る](https://techblog.exawizards.com/entry/2020/10/22/080000)| -| |
+|`200`| [GitLab Flow + GitHub Actions ではじめる、デプロイフローの改善・自動化](https://techblog.exawizards.com/entry/2021/01/21/111031)| -| |
+|`200`| [コンテナ Lambda の CI/CD パイプラインを SAM Pipeline で作ろう ! ~コンテナ利用者に捧げる AWS Lambda の新しい開発方式 ! ~ 第 5 回 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202109/new-lambda-container-development-5/?awsf.filter-name=*all)| -| |
+|`300`| [安全なハンズオフデプロイメントの自動化](https://aws.amazon.com/jp/builders-library/automating-safe-hands-off-deployments/)| -| |
+
+## Container
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`100`| [スペシャリストから学ぶコンテナ技術 第 1 回 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202104/chat-container-specialist/)| -| |
+|`200`| [スタートアップのためのコンテナ入門 – 導入編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-introduction/)| -| |
+|`200`| [スタートアップのためのコンテナ入門 – AWS Fargate 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-fargate-1/)| -| |
+|`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| |
+
+## Database (DB)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| |
+
+## Data Lake / Data Warehouse (DWH)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [貯めるだけじゃもったいない！AWS 分析サービスを使ったデータレイクの有効活用 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-06_AWS_Summit_Online_2021_ANT01.pdf) | [`YouTube`](https://www.youtube.com/watch?v=95P_6_CJeys)| |
+
+## DevOps
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [The Twelve-Factor App （日本語訳）](https://12factor.net/ja/)| -| |
+|`200`| [「The Twelve-Factor App」を15項目に見直した「Beyond the Twelve-Factor App」を読んだ - kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2020/03/09/084833)| -| |
+|`200`| [スタートアップのためのマイクロサービス入門 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-microservices-introduction/)| -| |
+|`200`| [Amazon S3を開発・運用する方法 - 巨大なマイクロサービスと組織 - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-33_AWS_Summit_Online_2020_STG01.pdf)| [`AWS`](https://resources.awscloud.com/vidyard-all-players/aws-33-aws-summit-online-2020-720p-2)| |
+|`200`| [サーバーレス開発：環境準備・CI/CD - Beyond Beginner](https://pages.awscloud.com/rs/112-TZM-766/images/3_serverless_development.pdf)| -| |
+|`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| |
+|`300`| [Serverlessをテストしよう / Serverless Testing - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing)| -| |
+|`300`| [GitHubがすばやく安全にリリースを行うためにどのようにフィーチャーフラグを利用しているか](https://www.infoq.com/jp/news/2021/06/github-feature-flags/)| -| |
+
+## Infrastructure as Code (IaC)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [Infrastructure as Codeに関する技術書籍を執筆しました - How elegant the tech world is...!](https://iselegant.hatenablog.com/entry/2021/06/19/231213)| -| |
+|`200`| [Terraform職人再入門2020 - Qiita](https://qiita.com/minamijoyo/items/3a7467f70d145ac03324)| -| |
+|`300`| [Infrastructure as Codeのつらみの原因を探れ　恐怖症による負のサイクルを断ち切る“予測可能性” - ログミーTech](https://logmi.jp/tech/articles/324822)| -| |
+
+## Global Infrastructure / Edge Network
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [AWS を顧客が必要とする場所に延伸する：AWS が提案する新しいハイブリッドの形（Amazon Outposts、AWS Local Zones、AWS Wavelength） - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-16_AWS_Summit_Online_2021_CMP04.pdf) | [`Youtube`](https://www.youtube.com/watch?v=K00ZUUSSNjM)| |
+|`200`| [ユーザーエクスペリエンスとセキュリティを最適化する AWS エッジネットワークサービス - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-33_AWS_Summit_Online_2021_NET02.pdf) | [`Youtube`](https://youtu.be/qFxrmCXm8Vg)| |
+|`300`| [Amazon CloudFront と AWS Global Accelerator を使った AWS Global Network の活用方法 - AWS Summit Tokyo 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-29_AWS_Summit_Online_2020_NET02.pdf)| -| |
+
+## Migration (マイグレーション・移行)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [Amazon RDS for Oracle / SQL Server への移行ベストプラクティス - AWS Summit 2019](https://pages.awscloud.com/rs/112-TZM-766/images/B3-01.pdf)| -| |
+|`200`| [AWSのサービスを使ったオンプレミスからのデータベース移⾏ - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-18_AWS_Summit_Online_2020_DAT01.pdf)| -| |
+
+## Monitoring (モニタリング・監視)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [AWS Startup Tech Meetup #3: かんたんコンテナロギング選手権](https://speakerdeck.com/prog893/aws-startup-tech-meetup-number-3-kantankontenaroginguxuan-shou-quan)| -| |
+|`300`| [KubernetesでFluentdの信頼性を担保するための3つの観点](https://zenn.dev/taisho6339/articles/eff38b47cbdbcb)| -| |
+
+## Multi Account (マルチアカウント)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [20210526 AWS Expert Online マルチアカウント管理の基本](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online)| -| |
+|`200`| これが基本のマルチアカウント管理 - AWS Expert Online for JAWS-UG #15 - | [`YouTube`](https://www.youtube.com/watch?v=3QJ-RA5R0Jk)| |
+|`300`| [AWS Organizations における組織単位のベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-organizational-units-with-aws-organizations/)| -| |
+
+## Multi Region (マルチリージョン)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| |
+
+## Network
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [AWS Summit Tokyo 2019 - 【初級】AWS を支えるグローバルネットワーク](https://pages.awscloud.com/rs/112-TZM-766/images/C1-02.pdf)| -| |
+|`300`| Deep Dive on How to Establish Private Connectivity with AWS PrivateLink - AWS Online Tech Talks (English)| [`YouTube`](https://www.youtube.com/watch?v=weN2sCKFquA)| |
+|`300`| [AWSネットワークの論理的な側面 ～ AWSのバックボーンネットワークに関するDeepな話（2） (1/4)：CodeZine（コードジン）](https://codezine.jp/article/detail/9790)| -| |
+|`300`| [パケットの気持ちになって辿る Amazon VPC のルーティング - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-08_AWS_Summit_Online_2020_NET01.pdf)| -| |
+|`300`| [「知らなくても困らないけど、知ると楽しいVPCの裏側の世界」というテーマでビデオセッションでお話ししました #devio2020 - DevelopersIO](https://dev.classmethod.jp/articles/devio-connect-2020-chibayuki-vpc/)| -| |
+
+## Security
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| |
+|`200`| [Amazon Route 53 および AWS Shield を使用した DDoS リスクの軽減 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/reduce-ddos-risks-using-amazon-route-53-and-aws-shield/)| -| |
+|`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| |
+|`200`| [AWS 環境における脅威検知と対応 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-39_AWS_Summit_Online_2021_SEC03.pdf)| -| |
+|`300`| [GitHub Actionsに「強い」AWSの権限を渡したい ~作戦3 - AssumeRole with Google ID Token ~ - KAYAC engineers' blog](https://techblog.kayac.com/assume-role-with-google-id-token)| -| |
+|`300`| [AWS IAMの安全な管理方法 · DeNA Engineers' Blog](https://engineer.dena.com/posts/2019.12/aws-iam-management/)| -| |
+|`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| |
+
+## Serverless (サーバーレス)
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`300`| [Serverless Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| |
+|`300`| [AWS Lambda Provisioned Concurrency Dive Deep & Practice - Speaker Deck](https://speakerdeck.com/_kensh/aws-lambda-provisioned-concurrency-dive-deep-and-practice)| -| |
+|`300`| [Serverless Land - Resources for learning about AWS serverless technology](https://serverlessland.com/)| -| サーバーレスの設計パターンなど。|
+
+## Storage
+|Lv.|タイトル|動画URL||
+|---|---|---|---|
+|`200`| [Comparing your on-premises storage patterns with AWS Storage services - AWS Storage Blog (English)](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)| -| |
+|`200`| AWS Storage - EBS vs S3 vs EFS| [`YouTube`](https://www.youtube.com/watch?v=6vNC_BCqFmI)| |
+
+
