@@ -1,5 +1,5 @@
 ---
-title: "AWS 参考リンク集"
+title: "AWS お役立ちリンク集"
 emoji: "🔗"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["aws"]
