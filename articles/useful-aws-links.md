@@ -295,6 +295,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| マルチリージョン構成でのデータ整合性や切替⽅式などの重要な検討事項、ビジネスニーズとコストのバランスについて。|
+|`200`| [Network視点で考えるシームレスなマルチリージョンへの移行と検討](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T3-Session.pdf)| -| マルチリージョン構成で Route53, Global Accelerator の違いなど。|
 
 ## Network
 |Lv.|タイトル|動画URL|備考|
