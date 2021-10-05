@@ -200,117 +200,123 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Availability
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| |
+|`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| AZ が多い場合のメリットや過去の AZ 障害などの話。|
 
 ## Backup / Disaster Recovery
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`300`| [Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)| -| |
+|`300`| [Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)| -| 障害復旧のホワイトペーパー。|
 
 ## Cache
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [Webアプリケーションのキャッシュ戦略とそのパターン / Pattern and Strategy of Web Application Caching - Speaker Deck](https://speakerdeck.com/moznion/pattern-and-strategy-of-web-application-caching)| -| |
+|`200`| [Webアプリケーションのキャッシュ戦略とそのパターン / Pattern and Strategy of Web Application Caching - Speaker Deck](https://speakerdeck.com/moznion/pattern-and-strategy-of-web-application-caching)| -| キャッシュのメリット・デメリットとデザインパターン。|
 
 ## CI / CD
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [GitHub Actions の self-hosted runners を AWS ECS で動かして、CI / CD パイプラインを作る](https://techblog.exawizards.com/entry/2020/10/22/080000)| -| |
-|`200`| [GitLab Flow + GitHub Actions ではじめる、デプロイフローの改善・自動化](https://techblog.exawizards.com/entry/2021/01/21/111031)| -| |
-|`200`| [コンテナ Lambda の CI/CD パイプラインを SAM Pipeline で作ろう ! ~コンテナ利用者に捧げる AWS Lambda の新しい開発方式 ! ~ 第 5 回 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202109/new-lambda-container-development-5/?awsf.filter-name=*all)| -| |
-|`300`| [安全なハンズオフデプロイメントの自動化](https://aws.amazon.com/jp/builders-library/automating-safe-hands-off-deployments/)| -| |
+|`200`| [GitLab Flow + GitHub Actions ではじめる、デプロイフローの改善・自動化](https://techblog.exawizards.com/entry/2021/01/21/111031)| -| デプロイの課題と GitHub Flow, GitLab Flow について。|
+|`200`| [コンテナ Lambda の CI/CD パイプラインを SAM Pipeline で作ろう ! ~コンテナ利用者に捧げる AWS Lambda の新しい開発方式 ! ~ 第 5 回 - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202109/new-lambda-container-development-5/?awsf.filter-name=*all)| -| サーバーレスの CI/CD パイプラインの代表的な構築方法と選択の仕方など。|
+|`300`| [安全なハンズオフデプロイメントの自動化](https://aws.amazon.com/jp/builders-library/automating-safe-hands-off-deployments/)| -| Amazon での安全な継続的デプロイメントについて。[継続的デリバリーによる高速化](https://aws.amazon.com/jp/builders-library/going-faster-with-continuous-delivery/)や[デプロイ時におけるロールバックの安全性の確保](https://aws.amazon.com/jp/builders-library/ensuring-rollback-safety-during-deployments/)も参考に。|
 
 ## Container
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [スペシャリストから学ぶコンテナ技術 第 1 回 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202104/chat-container-specialist/)| -| |
-|`200`| [スタートアップのためのコンテナ入門 – 導入編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-introduction/)| -| |
-|`200`| [スタートアップのためのコンテナ入門 – AWS Fargate 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-fargate-1/)| -| |
-|`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| |
+|`100`| [スペシャリストから学ぶコンテナ技術 第 1 回 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202104/chat-container-specialist/)| -| そもそもコンテナとは？なぜコンテナか？についての解説。|
+|`200`| [スタートアップのためのコンテナ入門 – 導入編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-introduction/)| -| コンテナ利用時・検討時によくある誤解やコンテナにすべきかどうかの考え方、コンテナへの移行ステップなど。|
+|`200`| [スタートアップのためのコンテナ入門 – AWS Fargate 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-fargate-1/)| -| Amazon ECS を前提に、コンテナ利用時のホストマシンの運用の課題から Fargate のメリットについて。|
+|`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| Kubernetes を選択すべきかどうかの考え方や、 AWS で Kubernetes を利用する場合のポイントなど。|
 
 ## Database (DB)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| |
+|`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB に|
 
 ## Data Lake / Data Warehouse (DWH)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [貯めるだけじゃもったいない！AWS 分析サービスを使ったデータレイクの有効活用 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-06_AWS_Summit_Online_2021_ANT01.pdf) | [`YouTube`](https://www.youtube.com/watch?v=95P_6_CJeys)| |
+|`200`| [貯めるだけじゃもったいない！AWS 分析サービスを使ったデータレイクの有効活用 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-06_AWS_Summit_Online_2021_ANT01.pdf) | [`YouTube`](https://www.youtube.com/watch?v=95P_6_CJeys)| データレイクについての説明や、AWS でデータレイクを活用するときのサービスの紹介。|
+
+## Developing
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [The Twelve-Factor App （日本語訳）](https://12factor.net/ja/)| -| 多種多様なSaaSアプリケーション開発現場での経験と観察をまとめた、ソフトウェア開発の方法論。|
+|`200`| [「The Twelve-Factor App」を15項目に見直した「Beyond the Twelve-Factor App」を読んだ - kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2020/03/09/084833)| -| クラウド化が進み技術的な変化も踏まえて「Beyond the Twelve-Factor App」がアップデートされた内容を簡潔にまとめたもの。|
+|`300`| [Boto3(AWS SDK for Python)をコードリーディングして仕組みを理解する](https://zenn.dev/sugikeitter/articles/6648845968cec6)| -| Boto3 のクライアント API とリソース API の実装の違い、boto3 の役割と botocore の役割の違いなど。|
+
 
 ## DevOps
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [The Twelve-Factor App （日本語訳）](https://12factor.net/ja/)| -| |
-|`200`| [「The Twelve-Factor App」を15項目に見直した「Beyond the Twelve-Factor App」を読んだ - kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2020/03/09/084833)| -| |
-|`200`| [スタートアップのためのマイクロサービス入門 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-microservices-introduction/)| -| |
-|`200`| [Amazon S3を開発・運用する方法 - 巨大なマイクロサービスと組織 - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-33_AWS_Summit_Online_2020_STG01.pdf)| [`AWS`](https://resources.awscloud.com/vidyard-all-players/aws-33-aws-summit-online-2020-720p-2)| |
-|`200`| [サーバーレス開発：環境準備・CI/CD - Beyond Beginner](https://pages.awscloud.com/rs/112-TZM-766/images/3_serverless_development.pdf)| -| |
-|`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| |
-|`300`| [Serverlessをテストしよう / Serverless Testing - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing)| -| |
-|`300`| [GitHubがすばやく安全にリリースを行うためにどのようにフィーチャーフラグを利用しているか](https://www.infoq.com/jp/news/2021/06/github-feature-flags/)| -| |
+|`200`| [Amazon S3を開発・運用する方法 - 巨大なマイクロサービスと組織 - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-33_AWS_Summit_Online_2020_STG01.pdf)| [`AWS`](https://resources.awscloud.com/vidyard-all-players/aws-33-aws-summit-online-2020-720p-2)| S3 の開発チームの DevOps の手法や、そのための組織構成など。|
 
 ## Infrastructure as Code (IaC)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [Infrastructure as Codeに関する技術書籍を執筆しました - How elegant the tech world is...!](https://iselegant.hatenablog.com/entry/2021/06/19/231213)| -| |
-|`200`| [Terraform職人再入門2020 - Qiita](https://qiita.com/minamijoyo/items/3a7467f70d145ac03324)| -| |
-|`300`| [Infrastructure as Codeのつらみの原因を探れ　恐怖症による負のサイクルを断ち切る“予測可能性” - ログミーTech](https://logmi.jp/tech/articles/324822)| -| |
+|`200`| [Infrastructure as Codeに関する技術書籍を執筆しました - How elegant the tech world is...!](https://iselegant.hatenablog.com/entry/2021/06/19/231213)| -| CloudFormation, AWS CDK, Terraform, Pulumi のツールが簡潔にまとめらている書籍の紹介。|
+|`200`| [Terraform職人再入門2020 - Qiita](https://qiita.com/minamijoyo/items/3a7467f70d145ac03324)| -| Terraform v0.14.2 時点での基礎から。|
+|`300`| [Infrastructure as Codeのつらみの原因を探れ　恐怖症による負のサイクルを断ち切る“予測可能性” - ログミーTech](https://logmi.jp/tech/articles/324822)| -| IaC ツールのパターンを分けた考え方。|
 
 ## Global Infrastructure / Edge Network
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWS を顧客が必要とする場所に延伸する：AWS が提案する新しいハイブリッドの形（Amazon Outposts、AWS Local Zones、AWS Wavelength） - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-16_AWS_Summit_Online_2021_CMP04.pdf) | [`Youtube`](https://www.youtube.com/watch?v=K00ZUUSSNjM)| |
-|`200`| [ユーザーエクスペリエンスとセキュリティを最適化する AWS エッジネットワークサービス - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-33_AWS_Summit_Online_2021_NET02.pdf) | [`Youtube`](https://youtu.be/qFxrmCXm8Vg)| |
-|`300`| [Amazon CloudFront と AWS Global Accelerator を使った AWS Global Network の活用方法 - AWS Summit Tokyo 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-29_AWS_Summit_Online_2020_NET02.pdf)| -| |
+|`200`| [AWS を顧客が必要とする場所に延伸する：AWS が提案する新しいハイブリッドの形 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-16_AWS_Summit_Online_2021_CMP04.pdf) | [`Youtube`](https://www.youtube.com/watch?v=K00ZUUSSNjM)| Amazon Outposts、AWS Local Zones、AWS Wavelength の紹介。|
+|`200`| [ユーザーエクスペリエンスとセキュリティを最適化する AWS エッジネットワークサービス - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-33_AWS_Summit_Online_2021_NET02.pdf) | [`Youtube`](https://youtu.be/qFxrmCXm8Vg)| エッジロケーションのサービスのパフォーマンス、セキュリティ、コスト最適化などが簡潔にまとめられている。|
+|`300`| [Amazon CloudFront と AWS Global Accelerator を使った AWS Global Network の活用方法 - AWS Summit Tokyo 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-29_AWS_Summit_Online_2020_NET02.pdf)| -| Amazon CloudFront と AWS Global Accelerator の違い、使い分けやエッジロケーションの構成/中⾝について。|
+
+## Microservices (マイクロサービス)
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [スタートアップのためのマイクロサービス入門 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-microservices-introduction/)| -| マイクロサービスとは何か？必要かどうかについての考え方についてなど。`「マイクロサービス」という言葉の功罪` という章以降を一読するのがおすすめ。|
 
 ## Migration (マイグレーション・移行)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [Amazon RDS for Oracle / SQL Server への移行ベストプラクティス - AWS Summit 2019](https://pages.awscloud.com/rs/112-TZM-766/images/B3-01.pdf)| -| |
-|`200`| [AWSのサービスを使ったオンプレミスからのデータベース移⾏ - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-18_AWS_Summit_Online_2020_DAT01.pdf)| -| |
+|`200`| [マイグレーションを実現するために - 第 1 回 : 既存システムのマイグレーションはなぜ必要なのか ? - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202010/migration-to-cloud/?awsf.filter-name=*all)| -| クラウドへの移行の必要性や段取りがまとめられている。[第2回](https://aws.amazon.com/jp/builders-flash/202011/migration-to-cloud-2/?awsf.filter-name=*all)、[第3回](https://aws.amazon.com/jp/builders-flash/202102/migration-to-cloud-3/?awsf.filter-name=*all)のシリーズもの。|
+|`200`| [Amazon RDS for Oracle / SQL Server への移行ベストプラクティス - AWS Summit 2019](https://pages.awscloud.com/rs/112-TZM-766/images/B3-01.pdf)| -| 考えられる移行パスや、ニアゼロダウンタイム移行の一例など。|
+|`200`| [AWSのサービスを使ったオンプレミスからのデータベース移⾏ - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-18_AWS_Summit_Online_2020_DAT01.pdf)| -| データベースを移⾏する際のパターン、SCT/DMSを活⽤したデータベース移⾏の具体例など。|
 
 ## Monitoring (モニタリング・監視)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWS Startup Tech Meetup #3: かんたんコンテナロギング選手権](https://speakerdeck.com/prog893/aws-startup-tech-meetup-number-3-kantankontenaroginguxuan-shou-quan)| -| |
-|`300`| [KubernetesでFluentdの信頼性を担保するための3つの観点](https://zenn.dev/taisho6339/articles/eff38b47cbdbcb)| -| |
+|`200`| [AWS Startup Tech Meetup #3: かんたんコンテナロギング選手権](https://speakerdeck.com/prog893/aws-startup-tech-meetup-number-3-kantankontenaroginguxuan-shou-quan)| -| コンテナのログのよくある課題、ログの種類や転送方法、格納先、サンプルアーキテクチャ。|
+|`300`| [KubernetesでFluentdの信頼性を担保するための3つの観点](https://zenn.dev/taisho6339/articles/eff38b47cbdbcb)| -| マイクロサービスやコンテナのログでよく利用される Fluentd の信頼性について。|
 
 ## Multi Account (マルチアカウント)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [20210526 AWS Expert Online マルチアカウント管理の基本](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online)| -| |
-|`200`| これが基本のマルチアカウント管理 - AWS Expert Online for JAWS-UG #15 - | [`YouTube`](https://www.youtube.com/watch?v=3QJ-RA5R0Jk)| |
-|`300`| [AWS Organizations における組織単位のベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-organizational-units-with-aws-organizations/)| -| |
+|`200`| [これが基本のマルチアカウント管理 - AWS Expert Online for JAWS-UG #15](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online) | [`YouTube`](https://www.youtube.com/watch?v=3QJ-RA5R0Jk)| マルチアカウント管理の必要性や考え方、ベストプラクティス、ControlTower による LandingZone の実現、具体的なガードレールの実装。|
+|`300`| [AWS Organizations における組織単位のベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-organizational-units-with-aws-organizations/)| -| AWS が推奨する「ランディングゾーン」と呼ばれる安全かつ生産性の高いマルチアカウント AWS 環境を構築する要素について。組織単位 (Organization Unit: OU) の分割方法など。|
 
 ## Multi Region (マルチリージョン)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| |
+|`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| マルチリージョン構成でのデータ整合性や切替⽅式などの重要な検討事項、ビジネスニーズとコストのバランスについて。|
 
 ## Network
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWS Summit Tokyo 2019 - 【初級】AWS を支えるグローバルネットワーク](https://pages.awscloud.com/rs/112-TZM-766/images/C1-02.pdf)| -| |
+|`200`| [AWS Summit Tokyo 2019 - 【初級】AWS を支えるグローバルネットワーク](https://pages.awscloud.com/rs/112-TZM-766/images/C1-02.pdf)| -| AWS のデータセンターやネットワークの物理構成と特徴やメリットについて。|
 |`300`| Deep Dive on How to Establish Private Connectivity with AWS PrivateLink - AWS Online Tech Talks (English)| [`YouTube`](https://www.youtube.com/watch?v=weN2sCKFquA)| |
-|`300`| [AWSネットワークの論理的な側面 ～ AWSのバックボーンネットワークに関するDeepな話（2） (1/4)：CodeZine（コードジン）](https://codezine.jp/article/detail/9790)| -| |
-|`300`| [パケットの気持ちになって辿る Amazon VPC のルーティング - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-08_AWS_Summit_Online_2020_NET01.pdf)| -| |
-|`300`| [「知らなくても困らないけど、知ると楽しいVPCの裏側の世界」というテーマでビデオセッションでお話ししました #devio2020 - DevelopersIO](https://dev.classmethod.jp/articles/devio-connect-2020-chibayuki-vpc/)| -| |
+|`300`| [AWSネットワークの論理的な側面 ～ AWSのバックボーンネットワークに関するDeepな話（2） (1/4)：CodeZine（コードジン）](https://codezine.jp/article/detail/9790)| -| Mapping Service (マッピングサービス)を利用した VPC 内で仮想サーバー同士が通信可能な仕組みの解説。|
+|`300`| [パケットの気持ちになって辿る Amazon VPC のルーティング - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-08_AWS_Summit_Online_2020_NET01.pdf)| -| オンプレミスのルーター/スイッチの考え方とは異なる、VPC 内でのクラウドネットワーキングの感覚を掴む。|
+|`300`| [「知らなくても困らないけど、知ると楽しいVPCの裏側の世界」というテーマでビデオセッションでお話ししました #devio2020 - DevelopersIO](https://dev.classmethod.jp/articles/devio-connect-2020-chibayuki-vpc/)| -| AWS Hyperplane や Blackfoot という VPC を裏側で支える技術について。 |
 
 ## Security
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| |
-|`200`| [Amazon Route 53 および AWS Shield を使用した DDoS リスクの軽減 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/reduce-ddos-risks-using-amazon-route-53-and-aws-shield/)| -| |
-|`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| |
-|`200`| [AWS 環境における脅威検知と対応 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-39_AWS_Summit_Online_2021_SEC03.pdf)| -| |
-|`300`| [GitHub Actionsに「強い」AWSの権限を渡したい ~作戦3 - AssumeRole with Google ID Token ~ - KAYAC engineers' blog](https://techblog.kayac.com/assume-role-with-google-id-token)| -| |
-|`300`| [AWS IAMの安全な管理方法 · DeNA Engineers' Blog](https://engineer.dena.com/posts/2019.12/aws-iam-management/)| -| |
-|`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| |
+|`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| 初動対応の調査や、社内の対応体制と外部連携についてなど。|
+|`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
+|`200`| [AWS 環境における脅威検知と対応 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-39_AWS_Summit_Online_2021_SEC03.pdf)| -| Amazon GuardDuty、AWS Security Hub、Amazon Detective による脅威を検知、監視、調査について。|
+|`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
 
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [サーバーレス開発：環境準備・CI/CD - Beyond Beginner](https://pages.awscloud.com/rs/112-TZM-766/images/3_serverless_development.pdf)| -| |
+|`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| |
+|`300`| [Serverlessをテストしよう / Serverless Testing - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing)| -| [テストしやすい Lambda 関数の書き方](https://speakerdeck.com/_kensh/serverless-testing?slide=17)が参考になる。|
+|`300`| [2021年版、サーバーレスのテスト手法を考える / Serverless Testing 2021 - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing-2021)| -| |
 |`300`| [Serverless Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| |
 |`300`| [AWS Lambda Provisioned Concurrency Dive Deep & Practice - Speaker Deck](https://speakerdeck.com/_kensh/aws-lambda-provisioned-concurrency-dive-deep-and-practice)| -| |
 |`300`| [Serverless Land - Resources for learning about AWS serverless technology](https://serverlessland.com/)| -| サーバーレスの設計パターンなど。|
@@ -318,7 +324,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Storage
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [Comparing your on-premises storage patterns with AWS Storage services - AWS Storage Blog (English)](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)| -| |
-|`200`| AWS Storage - EBS vs S3 vs EFS| [`YouTube`](https://www.youtube.com/watch?v=6vNC_BCqFmI)| |
+|`200`| [Comparing your on-premises storage patterns with AWS Storage services - AWS Storage Blog (English)](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)| -| オンプレミスのストレージの考え方と、 AWS でのストレージの考え方。|
+|`200`| AWS Storage - EBS vs S3 vs EFS| [`YouTube`](https://www.youtube.com/watch?v=6vNC_BCqFmI)| [ここから](https://youtu.be/6vNC_BCqFmI?t=238) EBS, S3, EFS の違いがわかりやすく解説されている。|
 
 
