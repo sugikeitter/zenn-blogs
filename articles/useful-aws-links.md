@@ -3,7 +3,7 @@ title: "AWS お役立ちリンク集"
 emoji: "🔗"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["aws"]
-published: false
+published: true
 ---
 
 AWS ユーザーガイドやデベロッパーガイド以外で役立つリンク集をまとめています。（随時更新）
@@ -112,7 +112,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| Amazon DynamoDB Deep Dive - AWS Summit Tokyo 2019|[`YouTube`](https://www.youtube.com/watch?v=16RYHfe89WY)| DynamoDB の基本から内部構造の詳細、デザインパターンなどの発展的な情報まで。|
 |`300`| [RDB と DynamoDB のデータベース設計プロセスの違い](https://www.slideshare.net/AmazonWebServicesJapan/db-20190905/18)| -| 2019/09/05 に開催された AWS のイベント、「イチから理解するサーバーレスアプリ開発」における講演資料の一つ。|
 |`---`| [PayPayでのDynamoDB活用事例について - Speaker Deck](https://speakerdeck.com/paypay/paypaydefalsedynamodbhuo-yong-shi-li-nituite)| -| PayPay の通知機能を実装するDB選定で DynamoDB を選択した理由など。|
-|`---`| [サーバレスアーキテクチャで実現した M-1 グランプリ敗者復活戦投票システム](https://d0.awsstatic.com/events/jp/2017/summit/slide/D3T5-3.pdf) -| M-1 グランプリ2016の敗者復活戦投票システムの DB に DynamoDB を選択した理由など。|
+|`---`| [サーバレスアーキテクチャで実現した M-1 グランプリ敗者復活戦投票システム](https://d0.awsstatic.com/events/jp/2017/summit/slide/D3T5-3.pdf)| -| M-1 グランプリ2016の敗者復活戦投票システムの DB に DynamoDB を選択した理由など。|
 
 ## EBS
 |Lv.|タイトル|動画URL|備考|
@@ -147,6 +147,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [API Gateway＋Lambdaでのステージ管理やCloudWatch Logsのログ運用のはなし - サーバーワークスエンジニアブログ](https://blog.serverworks.co.jp/tech/2017/02/01/apigateway-lambda-cloudwatchlogs/)| -| [API Gateway と Lambda のバージョン、エイリアスの関係の画像](https://cdn-ak.f.st-hatena.com/images/fotolife/s/serverworks/20200711/20200711162254.png)がわかりやすい。|
 |`200`| [LambdaのDLQ(デッドレターキュー)とDestinations(非同期呼び出しの宛先指定)を比較してみた - DevelopersIO](https://dev.classmethod.jp/articles/lambda-dlq-vs-destinations/)| -| 非同期呼び出しのLambdaが処理失敗した場合の挙動の設定。|
 |`300`| [AWS Summit Online JAPAN 2020 - Let’s dive deep into AWS Lambda error handling](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-35_AWS_Summit_Online_2020_MAD01.pdf)| -| Lambda のエラー発⽣時のリトライ制御、エラー伝搬の回避、データ整合性の確保の方法。|
+|`300`| Operating Lambda: パフォーマンスの最適化 - Amazon Web Services ブログ [<Part 1>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-1/), [<Part 2>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-2/), [<Part 3>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-3/)| -| 実行環境のライフサイクルと、コールドスタートの定義、測定、改善方法。メモリ構成が Lambda のパフォーマンスに及ぼす影響と、静的初期化コードを最適化する方法。Lambda 関数のパフォーマンス向上に役立つ関数のアーキテクチャとベストプラクティス。|
+|`300`| [大量リクエストを低コストでさばく AWS Lambda 関数を JVM で実現 - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202110/jvm-lambda-function/?awsf.filter-name=*all)| -| Node.js, Python, Java での条件ごとのパフォーマンス比較や、GraalVM での native-image を利用する方法。|
 
 ## RDS
 |Lv.|タイトル|動画URL|備考|
@@ -297,7 +299,6 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Summit Tokyo 2019 - 【初級】AWS を支えるグローバルネットワーク](https://pages.awscloud.com/rs/112-TZM-766/images/C1-02.pdf)| -| AWS のデータセンターやネットワークの物理構成と特徴やメリットについて。|
-|`300`| Deep Dive on How to Establish Private Connectivity with AWS PrivateLink - AWS Online Tech Talks (English)| [`YouTube`](https://www.youtube.com/watch?v=weN2sCKFquA)| |
 |`300`| [AWSネットワークの論理的な側面 ～ AWSのバックボーンネットワークに関するDeepな話（2） (1/4)：CodeZine（コードジン）](https://codezine.jp/article/detail/9790)| -| Mapping Service (マッピングサービス)を利用した VPC 内で仮想サーバー同士が通信可能な仕組みの解説。|
 |`300`| [パケットの気持ちになって辿る Amazon VPC のルーティング - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-08_AWS_Summit_Online_2020_NET01.pdf)| -| オンプレミスのルーター/スイッチの考え方とは異なる、VPC 内でのクラウドネットワーキングの感覚を掴む。|
 |`300`| [「知らなくても困らないけど、知ると楽しいVPCの裏側の世界」というテーマでビデオセッションでお話ししました #devio2020 - DevelopersIO](https://dev.classmethod.jp/articles/devio-connect-2020-chibayuki-vpc/)| -| AWS Hyperplane や Blackfoot という VPC を裏側で支える技術について。 |
@@ -313,12 +314,9 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [サーバーレス開発：環境準備・CI/CD - Beyond Beginner](https://pages.awscloud.com/rs/112-TZM-766/images/3_serverless_development.pdf)| -| |
-|`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| |
-|`300`| [Serverlessをテストしよう / Serverless Testing - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing)| -| [テストしやすい Lambda 関数の書き方](https://speakerdeck.com/_kensh/serverless-testing?slide=17)が参考になる。|
-|`300`| [2021年版、サーバーレスのテスト手法を考える / Serverless Testing 2021 - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing-2021)| -| |
-|`300`| [Serverless Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| |
-|`300`| [AWS Lambda Provisioned Concurrency Dive Deep & Practice - Speaker Deck](https://speakerdeck.com/_kensh/aws-lambda-provisioned-concurrency-dive-deep-and-practice)| -| |
+|`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| [テストしやすい Lambda 関数の書き方](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf#page=56)や、[AWSのサービスを利⽤するコードのUnit Test](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf#page=73)の方法論など。|
+|`300`| [2021年版、サーバーレスのテスト手法を考える / Serverless Testing 2021 - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing-2021)| -| 外部リソースを含むテスト、後半なスタックで構成されたビジネスロジック、非同期の副作用を伴うテストなど。|
+|`300`| [今日から始める、サーバーレス Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| Well-Architected フレームワークに則った設計をするための具体例。|
 |`300`| [Serverless Land - Resources for learning about AWS serverless technology](https://serverlessland.com/)| -| サーバーレスの設計パターンなど。|
 
 ## Storage
