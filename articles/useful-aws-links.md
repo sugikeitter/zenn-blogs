@@ -24,7 +24,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |URL|備考|
 |---|---|
 |[AWS (アマゾン ウェブ サービス) とは？](https://aws.amazon.com/jp/what-is-aws/)| AWS の紹介。よりメリットについて言及してた[AWS の クラウドが選ばれる 10 の理由](https://aws.amazon.com/jp/aws-ten-reasons/)のサイトもある。|
-|[AWS グローバルインフラストラクチャ](https://aws.amazon.com/jp/about-aws/global-infrastructure/)| AWS グローバルインフラストラクチャの最新情報やメリットなど。エッジロケーションの位置は [CloudFront の特徴ページ](https://aws.amazon.com/jp/cloudfront/features/)に記載されている。|
+|[AWS グローバルインフラストラクチャ](https://aws.amazon.com/jp/about-aws/global-infrastructure/)| AWS グローバルインフラストラクチャの最新情報やメリットなど。[AWS のデータセンターのページ](https://aws.amazon.com/jp/compliance/data-center/data-centers/)や、エッジロケーションの位置が記載された [CloudFront の特徴ページ](https://aws.amazon.com/jp/cloudfront/features/)のページも用意されている。|
 |[AWS Well-Architected のポータルサイト](https://aws.amazon.com/jp/architecture/well-architected/)| AWS Well-Architected フレームワーク、レンズ、Tool などの情報がまとめられている。|
 |[What’s New at AWS (English)](https://aws.amazon.com/new/)| AWS の最新リリース情報が更新さ絵ている。[日本語版のはこちら](https://aws.amazon.com/jp/new/)。|
 |[よくある質問](https://aws.amazon.com/jp/faqs/)| サービスごとによくある質問ページが用意されていて、利用する時に知りたい情報が多く書かれている |
