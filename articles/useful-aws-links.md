@@ -73,6 +73,12 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 
 # サービス別
 
+## API Gateway
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [Amazon API Gateway は何をしてるのか - DevelopersIO](https://dev.classmethod.jp/articles/what-does-amazon-api-gateway-do/)| -| API Gateway の機能が網羅的に纏まっている。|
+
+
 ## App Runner
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
