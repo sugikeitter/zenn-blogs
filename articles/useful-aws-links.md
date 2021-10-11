@@ -82,12 +82,17 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## App Runner
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`|AWS App Runner とは？ - AWS Expert Online for JAWS-UG #16|[`YouTube`](https://www.youtube.com/watch?v=--o2HwfnFiY)| App Runner の使い方とメリットを、デモを通して紹介。|
+|`200`| AWS App Runner とは？ - AWS Expert Online for JAWS-UG #16|[`YouTube`](https://www.youtube.com/watch?v=--o2HwfnFiY)| App Runner の使い方とメリットを、デモを通して紹介。|
 
 ## CloudFormation
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Organizations × CloudFormation StackSetsの組み合わせが素晴らしい - プログラマでありたい](https://blog.takuros.net/entry/2020/03/25/093247)| -| StackSets の利用例とメリットなど。|
+
+## CloudFormation
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [Visitor PrioritizationソリューションをCloudFront Functionsを使って実装するための考慮点 | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/visitor-prioritization-by-cloudfront-functions/)| -| CloudFront Functions　を利用したユーザーの優先制御、流量制御を行うための静的なウェイティングルームページにに誘導するソリューション。|
 
 ## CloudTrail
 |Lv.|タイトル|動画URL|備考|
