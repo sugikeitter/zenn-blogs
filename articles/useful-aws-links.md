@@ -61,10 +61,18 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|
 |https://github.com/aws| AWS の CLI, SDK, CDK, SAM などの OSS ツールなど。|
 |https://github.com/awslabs| ↑以外の AWS の OSS ツールなど。|
+|https://github.com/awsdocs| ユーザーガイドなどのドキュメントや [SDK のサンプルコード](https://github.com/awsdocs/aws-doc-sdk-examples)など。|
 |https://github.com/aws-samples| AWS の利用例やワークショップなど。 |
 |https://github.com/boto| AWS CLI のコアロジックや AWS SDK for Python のコード。|
 |https://github.com/aws-amplify| AWS Amplify の独立したリポジトリ。|
 |https://github.com/aws-containers| AWS コンテナ関連の独立したリポジトリ。ツールや利用例、ワークショップなど。|
+
+## AWS SDK ドキュメント
+|URL|備考|
+|---|---|
+| [AWS SDK for .NET V3 API](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/index.html)| シンプルな API ドキュメント。|
+| [AWS SDK for Java](https://sdk.amazonaws.com/java/api/latest/)| javadoc を HTML にした Java ユーザーにはお馴染みの形式。|
+| [AWS SDK for Python (Boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)| 1ページの情報量が多いので、少し表示が重いこともあるので注意。|
 
 ## おまけ
 |URL|備考|
