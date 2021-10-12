@@ -78,7 +78,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |URL|備考|
 |---|---|
 |[AWS Stash](https://awsstash.com/)|公式ではないがAWS関連資料が高速に検索できるサイト。|
-| `site:d1.awsstatic.com`<br>`site:pages.awscloud.com`| Google 検索のキーワードに追加すると、AWS イベントの発表資料の PDF が多く検索結果にヒットするので便利。`site:d0.awsstatic.com`もあるけど少し古め？かも。|
+| `site:d1.awsstatic.com`<br>`site:pages.awscloud.com`| Google 検索のキーワードに追加すると、AWS イベントの発表資料の PDF が多く検索結果にヒットするので便利。`site:d0.awsstatic.com`もあるけど少し古め？かも。両方のドメインをまとめて検索したい場合は`site:pages.awscloud.com OR site:d1.awsstatic.com`で検索可能。|
 
 # サービス別
 
