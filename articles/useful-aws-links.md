@@ -6,6 +6,10 @@ topics: ["aws"]
 published: true
 ---
 
+:::message alert
+最新の情報は公式ドキュメントをご確認ください💡
+:::
+
 AWS ユーザーガイドやデベロッパーガイド以外で役立つリンク集をまとめています。（随時更新）
 
 :::message
