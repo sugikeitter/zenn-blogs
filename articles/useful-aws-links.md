@@ -178,6 +178,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| Operating Lambda: パフォーマンスの最適化 - Amazon Web Services ブログ| -| [<Part 1>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-1/) 実行環境のライフサイクルと、コールドスタートの定義、測定、改善方法。[<Part 2>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-2/) メモリ構成が Lambda のパフォーマンスに及ぼす影響と、静的初期化コードを最適化する方法。[<Part 3>](https://aws.amazon.com/jp/blogs/news/operating-lambda-performance-optimization-part-3/) Lambda 関数のパフォーマンス向上に役立つ関数のアーキテクチャとベストプラクティス。|
 |`300`| [AWS Lambda Provisioned Concurrency Dive Deep & Practice - Speaker Deck](https://speakerdeck.com/_kensh/aws-lambda-provisioned-concurrency-dive-deep-and-practice)| -| Provisioned Concurrency のユースケースや活用方法など。|
 |`300`| [大量リクエストを低コストでさばく AWS Lambda 関数を JVM で実現 - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202110/jvm-lambda-function/?awsf.filter-name=*all)| -| Node.js, Python, Java での条件ごとのパフォーマンス比較や、GraalVM での native-image を利用する方法。|
+|`400`| [知らなくても困らないけど、知ると楽しいAWS Lambdaの裏側の世界 #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-awslambda-under-the-food/)| -| 実行環境である Firecracker や Lambda 関数の同期/非同期実行時のソフトウェアコンポーネント、コンテナイメージサポートの話など。|
 
 ## RDS
 |Lv.|タイトル|動画URL|備考|
@@ -197,18 +198,23 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [[レポート] ARC408: Route 53 SLA 100% の舞台裏 (Under the Hood of Amazon Route 53) #reinvent - DevelopersIO](https://dev.classmethod.jp/articles/report-reinvent-2018-1128-arc408/)| -| Route 53 を如何に大規模かつ SLA 100% のサービスとして AWS エンジニアリングチームが運営しているかの説明。|
 |`300`| [シャッフルシャーディングを使ったワークロードの分離](https://aws.amazon.com/jp/builders-library/workload-isolation-using-shuffle-sharding/)| -| DDoS 攻撃への対処としてのシャッフルシャーディングの解説。|
 
+## S3
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
+|`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
+
+## Site-to-Site VPN (サイト間 VPN)
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [[AWS] Site to Site VPN の BGP 経路を制御しよう - DevelopersIO](https://dev.classmethod.jp/articles/control-bgp-route-on-site-to-site-vpn/)| -| Site-to-Site VPN を利用した場合の2つのトンネルと Virtual Private Gateway(VGW), Transit Gateway を利用した場合の BGP による経路制御の方法が分かりやすくまとめっている。|
+
 ## Systems Manager
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Systems Manager(SSM) の数多い機能群を攻略するための図を書いてみた 2021 - DevelopersIO](https://dev.classmethod.jp/articles/all-ssm-capabilities-2021/)| -| Systems Manager の機能一覧が把握しやすい図。|
 |`200`| [AWSでSSMエージェントの自動更新をCloudFormationのスタックセット(StackSets)で複数のリージョンやアカウントに適用](https://zenn.dev/sugikeitter/articles/automating-updates-to-ssm-agent-with-cfn-stacksets)| -| マルチアカウント環境などで全てのサーバーのSSMエージェントの自動更新させる方法。|
 |`300`| [AWS IAMの安全な管理方法 · DeNA Engineers' Blog](https://engineer.dena.com/posts/2019.12/aws-iam-management/)| -| IAM ロールが利用できないシステムからAWSサービスへのアクセス時に、定期的にIAMユーザのシークレットアクセスキーのローテートを行う方法。|
-
-## S3
-|Lv.|タイトル|動画URL|備考|
-|---|---|---|---|
-|`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
-|`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
 
 ## SQS
 |Lv.|タイトル|動画URL|備考|
@@ -333,6 +339,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [AWSネットワークの論理的な側面 ～ AWSのバックボーンネットワークに関するDeepな話（2） (1/4)：CodeZine（コードジン）](https://codezine.jp/article/detail/9790)| -| Mapping Service (マッピングサービス)を利用した VPC 内で仮想サーバー同士が通信可能な仕組みの解説。|
 |`300`| [パケットの気持ちになって辿る Amazon VPC のルーティング - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-08_AWS_Summit_Online_2020_NET01.pdf)| -| オンプレミスのルーター/スイッチの考え方とは異なる、VPC 内でのクラウドネットワーキングの感覚を掴む。|
 |`300`| [「知らなくても困らないけど、知ると楽しいVPCの裏側の世界」というテーマでビデオセッションでお話ししました #devio2020 - DevelopersIO](https://dev.classmethod.jp/articles/devio-connect-2020-chibayuki-vpc/)| -| AWS Hyperplane や Blackfoot という VPC を裏側で支える技術について。 |
+|`300`| [顧客拠点から Amazon VPCへの接続パターンまとめ (Whitepaper参照） - DevelopersIO](https://dev.classmethod.jp/articles/whitepaper-translate-jpn-vpc-connectivity-options-01/)| -| VGW, Direct Connect, Transit Gateway の利用パターンがまとまっている。|
 
 ## Security
 |Lv.|タイトル|動画URL|備考|
