@@ -239,7 +239,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Transit Gateway
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [クロスアカウントな AWS Transit Gateway を、絵で見て（完全に）理解する。 - DevelopersIO](https://dev.classmethod.jp/articles/transitgateway-cross-account-diagram/)| -| Transit Gateway コンポーネントの位置関係が絵でわかりやすい。|
+|`200`| [クロスアカウントな AWS Transit Gateway を、絵で見て（完全に）理解する。 - DevelopersIO](https://dev.classmethod.jp/articles/transitgateway-cross-account-diagram/)| -| Transit Gateway コンポーネントの位置関係、関連付け（アソシエーション）と伝播（プロパゲーション）が絵でわかりやすい。|
 
 ## VPC endpoints (VPCe) / PrivateLink
 |Lv.|タイトル|動画URL|備考|
