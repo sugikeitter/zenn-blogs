@@ -236,6 +236,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`300`| [分散システムにおけるSagaパターンのAWS Step Functions による実装 #AWSDevDay - Speaker Deck](https://speakerdeck.com/fatsushi/fen-san-sisutemuniokerusagapatanfalseaws-step-functions-niyorushi-zhuang-number-awsdevday)| -| Saga パターンについての話と、Step Functions によるエラーハンドリングとリトライ、[e-コマースの注文処理のサンプル実装例](https://github.com/aws-samples/aws-step-functions-long-lived-transactions)など。|
 
+## VPC endpoints (VPCe) / PrivateLink
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [2つのVPCエンドポイントの違いを知る - DevelopersIO](https://dev.classmethod.jp/articles/vpc-endpoint-gateway-type/)| -| ゲートウェイ型とインターフェイス型の2種類の経路違いが図で簡潔にまとめられている。|
+|`300`| [「Amazon S3 インターフェースエンドポイント（PrivateLink）ではプライベート DNS をサポートしていません」 の意味を絵をかいて腹落ちさせてみた - DevelopersIO](https://dev.classmethod.jp/articles/s3-privatelink-diagram/)| -| PrivateLink を利用した場合に設定される DNS 名が整理されている。|
 
 # カテゴリ別
 
