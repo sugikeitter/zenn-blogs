@@ -95,7 +95,12 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## App Runner
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| AWS App Runner とは？ - AWS Expert Online for JAWS-UG #16|[`YouTube`](https://www.youtube.com/watch?v=--o2HwfnFiY)| App Runner の使い方とメリットを、デモを通して紹介。|
+|`200`| AWS App Runner とは？ - AWS Expert Online for JAWS-UG #16| [`YouTube`](https://www.youtube.com/watch?v=--o2HwfnFiY)| App Runner の使い方とメリットを、デモを通して紹介。|
+
+## Client VPN
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [AWS Client VPN のリソースとパラメータを一枚絵にまとめつつ過去のエントリもまとめてみた - DevelopersIO](https://dev.classmethod.jp/articles/aws-client-vpn-perfect-understand-2/)| -| 証明書や認証周りなども含めて整理されている。|
 
 ## CloudFormation
 |Lv.|タイトル|動画URL|備考|
@@ -155,6 +160,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [Amazon EC2インスタンスタイプの選び方ガイド - AWS Summit Tokyo 2019](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf)|[`YouTube`](https://www.youtue.com/watch?v=Q1LUX8WMjHY)| [EC2 インスタンスのネーミングポリシー](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf#page=14)と[追加機能のオプション表記](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf#page=20)がわかりやすい。|
 |`200`| [Amazon EC2 ことはじめ 〜あらゆるワークロードに対応する豊富な選択肢とコスト最適化オプション〜 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf)|[`YouTube`](https://youtu.be/wD-KOWEmx5E)| [EC2インスタンスの選び方](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=12)や、コストとキャパシティーの最適化など。[Savings Plans](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=30)の解説図や[Savings Plans と RI の関係](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=34)がわかりやすい。|
 
+## EKS
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [EKS Anywhereのファーストインプレッション - inductor's blog](https://blog.inductor.me/entry/2021/09/10/031541)| -| |
+
 ## ELB
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
@@ -163,6 +173,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Organizations
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [Organizing Your AWS Environment Using Multiple Accounts - Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)| -| Organizations の OU の分け方などの推奨方法などがまとめられているホワイトペーパー。|
 |`200`| [AWS Organizationsを活用したマルチアカウントのセキュリティサービス使用方法 ～まとめ～ - fu3ak1's tech days](https://fu3ak1.hatenablog.com/entry/2021/01/28/002536)| -| Organizationsを活用したセキュリティサービスについての紹介。|
 |`200`| [「進化し続けるインフラ」でありたい　リクルートのAWS基盤チームによるマルチアカウント管理 - ログミーTech](https://logmi.jp/tech/articles/323814)| -| 約90の AWS アカウントに対して横断的な管理、コスト配賦、共通機能の提供などの運用について。|
 
@@ -212,6 +223,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`300`| [[AWS] Site to Site VPN の BGP 経路を制御しよう - DevelopersIO](https://dev.classmethod.jp/articles/control-bgp-route-on-site-to-site-vpn/)| -| Site-to-Site VPN を利用した場合の2つのトンネルと Virtual Private Gateway(VGW), Transit Gateway を利用した場合の BGP による経路制御の方法が分かりやすくまとめっている。|
+|`300`| [Simulating Site-to-Site VPN Customer Gateways Using strongSwan - AWSNetworking & Content Delivery](https://aws.amazon.com/blogs/networking-and-content-delivery/simulating-site-to-site-vpn-customer-gateways-strongswan/)| -| AWS 環境のみで擬似的にオンプレミスのネットワークを作成し、Site-toSite VPN を構築する手順。Certificate-based な [part 2](https://aws.amazon.com/blogs/networking-and-content-delivery/simulating-site-to-site-vpn-customer-gateways-using-strongswan-part-2-certificate-based-authentication/)もある。|
 
 ## Systems Manager
 |Lv.|タイトル|動画URL|備考|
@@ -278,15 +290,17 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [スタートアップのためのコンテナ入門 – 導入編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-introduction/)| -| コンテナ利用時・検討時によくある誤解やコンテナにすべきかどうかの考え方、コンテナへの移行ステップなど。|
 |`200`| [スタートアップのためのコンテナ入門 – AWS Fargate 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-fargate-1/)| -| Amazon ECS を前提に、コンテナ利用時のホストマシンの運用の課題から Fargate のメリットについて。|
 |`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| Kubernetes を選択すべきかどうかの考え方や、 AWS で Kubernetes を利用する場合のポイントなど。|
+|`300`| [コンテナランタイムの仕組みと、Firecracker、gVisor、Unikernelが注目されている理由。 Container Runtime Meetup #2 － Publickey](https://www.publickey1.jp/blog/20/firecrackergvisorunikernel_container_runtime_meetup_2.html)| -| CRI, OCI とは何か？コンテナランタイムの高レベルと低レベルについてなど。|
 
 ## Database (DB)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB に|
+|`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB とは？が簡潔にまとめられている。|
 
 ## Data Lake / Data Warehouse (DWH)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [レイクハウスアーキテクチャとは - Amazon Web Services](https://aws.amazon.com/jp/big-data/datalakes-and-analytics/data-lake-house/)| -| レイクハウスアプローチの仕組みや必要になる理由についてなど。|
 |`200`| [貯めるだけじゃもったいない！AWS 分析サービスを使ったデータレイクの有効活用 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-06_AWS_Summit_Online_2021_ANT01.pdf) | [`YouTube`](https://www.youtube.com/watch?v=95P_6_CJeys)| データレイクについての説明や、AWS でデータレイクを活用するときのサービスの紹介。|
 
 ## Developing
@@ -358,9 +372,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Security
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [AWS セキュリティ監査のガイドライン - AWS 全般のリファレンス](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-security-audit-guide.html)| -| 基本的なことではあるが、監査を実践するためのガイドラインが羅列されている。|
 |`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| 初動対応の調査や、社内の対応体制と外部連携についてなど。|
 |`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
 |`200`| [AWS 環境における脅威検知と対応 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-39_AWS_Summit_Online_2021_SEC03.pdf)| -| Amazon GuardDuty、AWS Security Hub、Amazon Detective による脅威を検知、監視、調査について。|
+|`300`| [AWS環境にセキュアなベースラインを提供するテンプレート「Baseline Environment on AWS」のご紹介 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-baseline-environment-on-aws/)| -| AWS Japanのソリューションアーキテクトが AWS Samples に公開している BLEA についての紹介。Control Tower によるマルチアカウント環境でも同じように利用可能。|
 |`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
 
 ## Serverless (サーバーレス)
