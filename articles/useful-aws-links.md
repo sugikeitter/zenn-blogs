@@ -13,7 +13,7 @@ published: true
 AWS ユーザーガイドやデベロッパーガイド以外で役立つリンク集をまとめています。（随時更新）
 
 :::message
-**Lv.** は[こちらの表](https://pages.awscloud.com/rs/112-TZM-766/images/seminar_level_2020.pdf)を参考に判断しています。
+**Lv.** は[こちらの表](https://pages.awscloud.com/rs/112-TZM-766/images/seminar_level_2020.pdf)を参考に独自で以下のように設定しています。
 :::
 > |Lv.||
 > |---|---|
@@ -21,6 +21,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 > |`200`| 中級 |
 > |`300`| アドバンスト |
 > |`400`| エキスパート |
+> |`---`| 事例など |
 
 # AWS について
 
@@ -101,6 +102,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Client VPN のリソースとパラメータを一枚絵にまとめつつ過去のエントリもまとめてみた - DevelopersIO](https://dev.classmethod.jp/articles/aws-client-vpn-perfect-understand-2/)| -| 証明書や認証周りなども含めて整理されている。|
+|`---`| [AWS 導入事例：コクヨ株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/kokuyo-serverworks/)| -| Direct Connect は利用している状態から、1,000 名規模のリモートワーク環境を10日間で構築した話。|
+
 
 ## CloudFormation
 |Lv.|タイトル|動画URL|備考|
@@ -131,6 +134,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS Control Towerの嬉しいポイントと注意ポイント - NRIネットコム Design and Tech Blog](https://tech.nri-net.com/entry/controltower-kms)| -| AWS Control Tower を実際に利用するときのポイント。|
 |`300`| [Architecture Overview - Customizations for AWS Control Tower](https://docs.aws.amazon.com/solutions/latest/customizations-for-aws-control-tower/architecture.html)| -| Control Tower のカスタマイズ方法の実装の一例についての紹介。[日本語の実装ガイド](https://aws.amazon.com/jp/solutions/implementations/customizations-for-aws-control-tower/)や[日本語のソリューション実装](https://controltower.aws-management.tools/ja/automation/cfct/)もある。|
 |`300`| [「AWS Control Tower をカスタマイズして使ってみよう」というテーマでお話ししました #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-cfcf/)|[`YouTube`](https://www.youtube.com/watch?v=j-7hN8te0Yo)| DynamoDB の基本から内部構造の詳細、デザインパターンなどの発展的な情報まで。| Control Tower でセットアップされないけれど初期設定に組み込みたいサービスのカスタマイズ方法の一例。|
+
+## Direct Connect (DX)
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| [AWS導入事例 株式会社ゼンリンデータコム様 - TOKAIコミュニケーションズ AWSソリューション](https://www.cloudsolution.tokai-com.co.jp/case/zenrin-datacom.html)| -| お客様データセンター <-> DXロケーション <-> AWS のネットワークへの接続の具体的な図がわかりやすい。|
 
 ## DynamoDB
 |Lv.|タイトル|動画URL|備考|
