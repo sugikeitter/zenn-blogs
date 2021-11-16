@@ -124,16 +124,13 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS再入門ブログリレー Amazon Cognito編 - DevelopersIO](https://dev.classmethod.jp/articles/re-introduction-2020-amazon-cognito/)| -| ユーザープール、ID プールの利用パターンが解説されている。|
 |`200`| [Cognitoのサインイン時に取得できる、IDトークン・アクセストークン・更新トークンを理解する - DevelopersIO](https://dev.classmethod.jp/articles/study-tokens-of-cognito-user-pools/)| -| Cognito で利用するトークンの解説。|
 
-## Config
-|Lv.|タイトル|動画URL|備考|
-|---|---|---|---|
-|`200`| [やらないという選択肢はない　AWS Configを用いたマルチアカウント・マルチリージョンでのリソース把握とコンプライアンス維持 - ログミーTech](https://logmi.jp/tech/articles/323894)| -| AWS Configを用いたマルチアカウント・マルチリージョンでのリソース把握とコンプライアンス維持への取り組み|
-
 ## Control Tower
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS ソリューションプロバイダー向け AWS Control Tower のベストプラクティス - AWS JAPAN APN ブログ](https://aws.amazon.com/jp/blogs/psa/aws-control-tower-best-practices-for-aws-solution-providers/)| -| ソリューションプロバイダープログラムのお客様が AWS Control Tower を導入から継続的な運用までのプロセスを機能させる方法。|
 |`200`| [AWS Control Towerの嬉しいポイントと注意ポイント - NRIネットコム Design and Tech Blog](https://tech.nri-net.com/entry/controltower-kms)| -| AWS Control Tower を実際に利用するときのポイント。|
+|`300`| [Architecture Overview - Customizations for AWS Control Tower](https://docs.aws.amazon.com/solutions/latest/customizations-for-aws-control-tower/architecture.html)| -| Control Tower のカスタマイズ方法の実装の一例についての紹介。[日本語の実装ガイド](https://aws.amazon.com/jp/solutions/implementations/customizations-for-aws-control-tower/)や[日本語のソリューション実装](https://controltower.aws-management.tools/ja/automation/cfct/)もある。|
+|`300`| [「AWS Control Tower をカスタマイズして使ってみよう」というテーマでお話ししました #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-cfcf/)|[`YouTube`](https://www.youtube.com/watch?v=j-7hN8te0Yo)| DynamoDB の基本から内部構造の詳細、デザインパターンなどの発展的な情報まで。| Control Tower でセットアップされないけれど初期設定に組み込みたいサービスのカスタマイズ方法の一例。|
 
 ## DynamoDB
 |Lv.|タイトル|動画URL|備考|
@@ -174,8 +171,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [Organizing Your AWS Environment Using Multiple Accounts - Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)| -| Organizations の OU の分け方などの推奨方法などがまとめられているホワイトペーパー。|
-|`200`| [AWS Organizationsを活用したマルチアカウントのセキュリティサービス使用方法 ～まとめ～ - fu3ak1's tech days](https://fu3ak1.hatenablog.com/entry/2021/01/28/002536)| -| Organizationsを活用したセキュリティサービスについての紹介。|
-|`200`| [「進化し続けるインフラ」でありたい　リクルートのAWS基盤チームによるマルチアカウント管理 - ログミーTech](https://logmi.jp/tech/articles/323814)| -| 約90の AWS アカウントに対して横断的な管理、コスト配賦、共通機能の提供などの運用について。|
+|`200`| [[AWS Organizations] SCP(サービスコントロールポリシー)の継承の仕組みを学ぼう - DevelopersIO](https://dev.classmethod.jp/articles/organizations-scp-inheritance/)| -| SCP の継承の考え方や、暗黙の Deny の概念が図でわかりやすい。|
 
 ## IAM
 |Lv.|タイトル|動画URL|備考|
@@ -242,6 +238,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [Azure AD と AWS SSOの連携 - fu3ak1's tech days](https://fu3ak1.hatenablog.com/entry/2020/12/20/000622)| -| IdP として Azure Active Directory を利用したAWS SSO の構築方法。|
+|`200`| [AWS クラウドサービス活用資料集 - AWSアカウント シングルサインオンの設計と運用 #IDフェデレーションで変わる運⽤の論点](https://d1.awsstatic.com/webinars/jp/pdf/services/20200722_AWSBlackbelt_%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AA%E3%83%B3%E3%81%AE%E8%A8%AD%E8%A8%88%E3%81%A8%E9%81%8B%E7%94%A8.pdf#page=53)| -| 権限セット数に制限がある中で多くのアカウントを管理する場合、 RBAC ではなく ABAC モデルの考え方について。|
+|`200`| [AWS SSO、AD、ABACを触ってみる - サーバーワークスエンジニアブログ](https://blog.serverworks.co.jp/2021/04/16/113023)| -| ABAC の設定手順の一例が記載されている。|
 
 ## StepFunctions
 |Lv.|タイトル|動画URL|備考|
@@ -329,6 +327,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS を顧客が必要とする場所に延伸する：AWS が提案する新しいハイブリッドの形 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-16_AWS_Summit_Online_2021_CMP04.pdf) | [`Youtube`](https://www.youtube.com/watch?v=K00ZUUSSNjM)| Amazon Outposts、AWS Local Zones、AWS Wavelength の紹介。|
 |`200`| [ユーザーエクスペリエンスとセキュリティを最適化する AWS エッジネットワークサービス - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-33_AWS_Summit_Online_2021_NET02.pdf) | [`Youtube`](https://youtu.be/qFxrmCXm8Vg)| エッジロケーションのサービスのパフォーマンス、セキュリティ、コスト最適化などが簡潔にまとめられている。|
 |`300`| [Amazon CloudFront と AWS Global Accelerator を使った AWS Global Network の活用方法 - AWS Summit Tokyo 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-29_AWS_Summit_Online_2020_NET02.pdf)| -| Amazon CloudFront と AWS Global Accelerator の違い、使い分けやエッジロケーションの構成/中⾝について。|
+|`---`| [AWS 導入事例：スマートニュース株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/smartnews-2021/)| -| 北米ユーザーの閲覧体験を高めるために、AWS Global Accelerator をはじめとするサービスを活用して、北米の 2 拠点を加えたマルチリージョン構成を実現。|
 
 ## Microservices (マイクロサービス)
 |Lv.|タイトル|動画URL|備考|
@@ -351,7 +350,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Multi Account (マルチアカウント)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [これが基本のマルチアカウント管理 - AWS Expert Online for JAWS-UG #15](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online) | [`YouTube`](https://www.youtube.com/watch?v=3QJ-RA5R0Jk)| マルチアカウント管理の必要性や考え方、ベストプラクティス、ControlTower による LandingZone の実現、具体的なガードレールの実装。|
+|`200`| [これが基本のマルチアカウント管理 - AWS Expert Online for JAWS-UG #15](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online) | [`YouTube`](https://www.youtube.com/watch?v=3QJ-RA5R0Jk)| マルチアカウント管理の必要性や考え方、ベストプラクティス、Control Tower による LandingZone の実現、具体的なガードレールの実装。アカウント分割により管理できる例が[ここ](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online/7)や[Landing Zone とは](https://www.slideshare.net/AmazonWebServicesJapan/20210526-aws-expert-online/26)の説明がわかりやすい。|
+|`200`| [「AWS Control Towerを利用したマルチアカウント管理とセキュリティ統制」JAWS DAYS 2021登壇資料 #jawsug #jawsdays #jawsdays2021 #jawsdays2021_C - DevelopersIO](https://dev.classmethod.jp/articles/jaws-days-2021-control-tower/)| [`YouTube`](https://youtu.be/JpJjJ39c5oQ)| [ここ](https://speakerdeck.com/cmusudakeisuke/aws-control-towerwoli-yong-sitamarutiakauntoguan-li-tosekiyuriteitong-zhi?slide=10)からのアカウントを分けることによる分離の考え方の図がわかりやすい。|
+|`200`| [やらないという選択肢はない　AWS Configを用いたマルチアカウント・マルチリージョンでのリソース把握とコンプライアンス維持 - ログミーTech](https://logmi.jp/tech/articles/323894)| -| AWS Configを用いたマルチアカウント・マルチリージョンでのリソース把握とコンプライアンス維持への取り組み|
+|`200`| [AWS Organizationsを活用したマルチアカウントのセキュリティサービス使用方法 ～まとめ～ - fu3ak1's tech days](https://fu3ak1.hatenablog.com/entry/2021/01/28/002536)| -| Organizationsを活用したセキュリティサービスについての紹介。|
+|`200`| [「進化し続けるインフラ」でありたい　リクルートのAWS基盤チームによるマルチアカウント管理 - ログミーTech](https://logmi.jp/tech/articles/323814)| -| 約90の AWS アカウントに対して横断的な管理、コスト配賦、共通機能の提供などの運用について。|
 |`300`| [AWS Organizations における組織単位のベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-organizational-units-with-aws-organizations/)| -| AWS が推奨する「ランディングゾーン」と呼ばれる安全かつ生産性の高いマルチアカウント AWS 環境を構築する要素について。組織単位 (Organization Unit: OU) の分割方法など。|
 
 ## Multi Region (マルチリージョン)
