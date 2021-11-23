@@ -115,6 +115,12 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`300`| [Visitor PrioritizationソリューションをCloudFront Functionsを使って実装するための考慮点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/visitor-prioritization-by-cloudfront-functions/)| -| CloudFront Functions　を利用したユーザーの優先制御、流量制御を行うための静的なウェイティングルームページにに誘導するソリューション。|
 
+## CloudHSM
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [ハードウェアセキュリティモジュール - ITソリューションのTIS株式会社](https://www.tis.jp/service_solution/safenet_HSM/)
+|`---`| [AWSセキュリティ事例 -  ITソリューションのTIS株式会社](https://www.tis.jp/special/aws_security/)| -| 株式会社日本カードネットワークが決済ネットワークの J-Helix システムで、取り扱うデータの暗号化と暗号鍵の管理に CloudHSM と KMS を利用した事例。|
+
 ## CloudTrail
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
@@ -264,6 +270,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| [2つのVPCエンドポイントの違いを知る - DevelopersIO](https://dev.classmethod.jp/articles/vpc-endpoint-gateway-type/)| -| ゲートウェイ型とインターフェイス型の2種類の経路違いが図で簡潔にまとめられている。|
 |`300`| [「Amazon S3 インターフェースエンドポイント（PrivateLink）ではプライベート DNS をサポートしていません」 の意味を絵をかいて腹落ちさせてみた - DevelopersIO](https://dev.classmethod.jp/articles/s3-privatelink-diagram/)| -| PrivateLink を利用した場合に設定される DNS 名が整理されている。|
+|`---`| | [住信SBIネット銀行の PrivateLink 事例](https://pages.awscloud.com/rs/112-TZM-766/images/K1-02.pdf#page=27)| -| 提携企業へ利用してもらうシステムをインターネットに公開することなく PrivateLink を利用することで AWS のネットワークに閉じた形で複数企業へ提供している事例。|
 
 # カテゴリ別
 
