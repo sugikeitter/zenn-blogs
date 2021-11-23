@@ -118,7 +118,6 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## CloudHSM
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [ハードウェアセキュリティモジュール - ITソリューションのTIS株式会社](https://www.tis.jp/service_solution/safenet_HSM/)
 |`---`| [AWSセキュリティ事例 -  ITソリューションのTIS株式会社](https://www.tis.jp/special/aws_security/)| -| 株式会社日本カードネットワークが決済ネットワークの J-Helix システムで、取り扱うデータの暗号化と暗号鍵の管理に CloudHSM と KMS を利用した事例。|
 
 ## CloudTrail
