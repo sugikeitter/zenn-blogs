@@ -257,6 +257,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## StepFunctions
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`300`| [AWS EXpert Online for JAWS-UG 18 - 見せてやるよ、Step Functions の本気ってやつをな](https://www.slideshare.net/AmazonWebServicesJapan/aws-expert-online-for-jawsug-18-step-functions) | [`YouTube`](https://www.youtube.com/watch?v=DcE_c8_6QUk) | 一連のワークフローのリポジトリ分けの観点やデバッグについての考え方、Step Functions を動かして終わりの状態からより実践的な利用方法について学べる。|
 |`300`| [分散システムにおけるSagaパターンのAWS Step Functions による実装 #AWSDevDay - Speaker Deck](https://speakerdeck.com/fatsushi/fen-san-sisutemuniokerusagapatanfalseaws-step-functions-niyorushi-zhuang-number-awsdevday)| -| Saga パターンについての話と、Step Functions によるエラーハンドリングとリトライ、[e-コマースの注文処理のサンプル実装例](https://github.com/aws-samples/aws-step-functions-long-lived-transactions)など。|
 
 ## Transit Gateway
