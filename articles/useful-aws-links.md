@@ -175,12 +175,16 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## ECS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`---`| [金融スタートアップにおけるコンテナ・ECSの活用事例 / container-fest-summer-fintech - Speaker Deck](https://speakerdeck.com/stajima/container-fest-summer-fintech)| -| コンテナを採用している理由、ECS と EKS との比較なども記載されている。|
+|`200`| [名刺データ化システムをECSに移行した - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2020/12/02/110000)| -| ECS or EKS , Fargate or EC2 の選定理由がわかりやすく記載されている。具体的なデプロイフローもあってすごく良い。|
+|`200`| [Pairs, Pairsエンゲージにおける ECS Fargate の移行・活用事例 - 株式会社エウレカ](https://pages.awscloud.com/rs/112-TZM-766/images/04_%E3%82%A8%E3%82%A6%E3%83%AC%E3%82%AB%E6%A7%98_%E8%B3%87%E6%96%99.pdf)| -| コンテナによって開発課題をどう解決したかと ECS on Fargate の採用理由についてなど。[コンテナ移行前のアーキテクチャ図](https://pages.awscloud.com/rs/112-TZM-766/images/04_%E3%82%A8%E3%82%A6%E3%83%AC%E3%82%AB%E6%A7%98_%E8%B3%87%E6%96%99.pdf#page=8)もかなり書き込まれていて面白い。|
+|`---`| [金融スタートアップにおけるコンテナ・ECSの活用事例 / container-fest-summer-fintech - Speaker Deck](https://speakerdeck.com/stajima/container-fest-summer-fintech)| -| コンテナを採用している理由、EKS ではなく ECS を選んだ理由も記載されている。|
 |`---`| [【事例】ロマサガRSの大規模トラフィックを捌くAmazon ECS & Docker 運用 - AWS Summit Tokyo 2019](https://pages.awscloud.com/rs/112-TZM-766/images/I3-04.pdf#page=15)| [`YouTube`](https://www.youtube.com/watch?v=SdtbNYP8UH4)| 大規模なゲームを ALB + ECS + RDS + ElastiCache + DynamoDB で構築していて、お手本のようなアーキテクチャ図で参考になる。|
 
 ## EKS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [リクルートマーケティングパートナーズにおけるAmazon EKSとAWS App Meshを使った基盤安定性向上とGitOpsへの挑戦 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/migration-journey-of-container-orchestrator-by-recruit-marketing-partners/)| -| なぜ ECS から EKS に移行したのかについても記載されている。|
+|`200`| [アソビュー！がECSではなくEKSを選んだ理由 - Speaker Deck](https://speakerdeck.com/kirimaru/asobiyu-gaecsdehanakuekswoxuan-ndali-you)| -| どちらが優れているかではない上で、なぜ今回 EKS にしたのかを大変な面も踏まえて「誰が」「何に対して」の観点でまとめられている。|
 |`300`| [EKS Anywhereのファーストインプレッション - inductor's blog](https://blog.inductor.me/entry/2021/09/10/031541)| -| |
 |`---`| [AWS 導入事例：freee株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/freee/)| -| EKS 利用により Kubernetes のコントロールプレーンの運用を AWS に任せることで開発の課題に対応。|
 
