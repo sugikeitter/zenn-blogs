@@ -274,7 +274,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| [2つのVPCエンドポイントの違いを知る - DevelopersIO](https://dev.classmethod.jp/articles/vpc-endpoint-gateway-type/)| -| ゲートウェイ型とインターフェイス型の2種類の経路違いが図で簡潔にまとめられている。|
 |`300`| [「Amazon S3 インターフェースエンドポイント（PrivateLink）ではプライベート DNS をサポートしていません」 の意味を絵をかいて腹落ちさせてみた - DevelopersIO](https://dev.classmethod.jp/articles/s3-privatelink-diagram/)| -| PrivateLink を利用した場合に設定される DNS 名が整理されている。|
-|`---`| | [住信SBIネット銀行の PrivateLink 事例](https://pages.awscloud.com/rs/112-TZM-766/images/K1-02.pdf#page=27)| -| 提携企業へ利用してもらうシステムをインターネットに公開することなく PrivateLink を利用することで AWS のネットワークに閉じた形で複数企業へ提供している事例。|
+|`---`| [住信SBIネット銀行の PrivateLink 事例](https://pages.awscloud.com/rs/112-TZM-766/images/K1-02.pdf#page=27)| -| 提携企業へ利用してもらうシステムをインターネットに公開することなく PrivateLink を利用することで AWS のネットワークに閉じた形で複数企業へ提供している事例。|
 
 # カテゴリ別
 
@@ -308,6 +308,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [スタートアップのためのコンテナ入門 – AWS Fargate 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-fargate-1/)| -| Amazon ECS を前提に、コンテナ利用時のホストマシンの運用の課題から Fargate のメリットについて。|
 |`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| Kubernetes を選択すべきかどうかの考え方や、 AWS で Kubernetes を利用する場合のポイントなど。|
 |`300`| [コンテナランタイムの仕組みと、Firecracker、gVisor、Unikernelが注目されている理由。 Container Runtime Meetup #2 － Publickey](https://www.publickey1.jp/blog/20/firecrackergvisorunikernel_container_runtime_meetup_2.html)| -| CRI, OCI とは何か？コンテナランタイムの高レベルと低レベルについてなど。|
+
+## Cost / 料金
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [AWSのコスト最適化/リザーブドインスタンス - AWS サービス別資料](https://d1.awsstatic.com/webinars/jp/pdf/services/20171110_AWS-BlackBelt_RI_update.pdf)| -| [損益分岐点についての図](https://d1.awsstatic.com/webinars/jp/pdf/services/20171110_AWS-BlackBelt_RI_update.pdf#page=71)が利用検討の参考になる。|
 
 ## Database (DB)
 |Lv.|タイトル|動画URL|備考|
