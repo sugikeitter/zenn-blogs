@@ -172,10 +172,17 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [Amazon EC2インスタンスタイプの選び方ガイド - AWS Summit Tokyo 2019](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf)|[`YouTube`](https://www.youtue.com/watch?v=Q1LUX8WMjHY)| [EC2 インスタンスのネーミングポリシー](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf#page=14)と[追加機能のオプション表記](https://pages.awscloud.com/rs/112-TZM-766/images/C2-07.pdf#page=20)がわかりやすい。|
 |`200`| [Amazon EC2 ことはじめ 〜あらゆるワークロードに対応する豊富な選択肢とコスト最適化オプション〜 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf)|[`YouTube`](https://youtu.be/wD-KOWEmx5E)| [EC2インスタンスの選び方](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=12)や、コストとキャパシティーの最適化など。[Savings Plans](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=30)の解説図や[Savings Plans と RI の関係](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-13_AWS_Summit_Online_2021_CMP01.pdf#page=34)がわかりやすい。|
 
+## ECS
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| [金融スタートアップにおけるコンテナ・ECSの活用事例 / container-fest-summer-fintech - Speaker Deck](https://speakerdeck.com/stajima/container-fest-summer-fintech)| -| コンテナを採用している理由、ECS と EKS との比較なども記載されている。|
+|`---`| [【事例】ロマサガRSの大規模トラフィックを捌くAmazon ECS & Docker 運用 - AWS Summit Tokyo 2019](https://pages.awscloud.com/rs/112-TZM-766/images/I3-04.pdf#page=15)| [`YouTube`](https://www.youtube.com/watch?v=SdtbNYP8UH4)| 大規模なゲームを ALB + ECS + RDS + ElastiCache + DynamoDB で構築していて、お手本のようなアーキテクチャ図で参考になる。|
+
 ## EKS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`300`| [EKS Anywhereのファーストインプレッション - inductor's blog](https://blog.inductor.me/entry/2021/09/10/031541)| -| |
+|`---`| [AWS 導入事例：freee株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/freee/)| -| EKS 利用により Kubernetes のコントロールプレーンの運用を AWS に任せることで開発の課題に対応。|
 
 ## ELB
 |Lv.|タイトル|動画URL|備考|
@@ -268,6 +275,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [クロスアカウントな AWS Transit Gateway を、絵で見て（完全に）理解する。 - DevelopersIO](https://dev.classmethod.jp/articles/transitgateway-cross-account-diagram/)| -| Transit Gateway コンポーネントの位置関係、関連付け（アソシエーション）と伝播（プロパゲーション）が絵でわかりやすい。|
 |`200`| [Field Notes: Working with Route Tables in AWS Transit Gateway - AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/)| -| 複数の VPC とルートテーブルの関係の一枚絵がわかりやすい。|
 |`---`| [グノシーにおける AWS Transit Gateway 活用事例 - Gunosy Tech Blog](https://tech.gunosy.io/entry/gunosy-aws-transit-gateway)| -| 複数のアカウントと VPC に Direct Connect を接続していたが、 Transit Gateway で設計がシンプルになって考慮する点やリードタイムが減った話。|
+|`---`| [AWS 導入事例：株式会社マネーフォワード - AWS](https://aws.amazon.com/jp/solutions/case-studies/moneyforward/)| -| マルチアカウント構成で Transit Gateway を活用しながら EKS クラスタと他のアカウントのリソースへ接続している。|
 
 ## VPC endpoints (VPCe) / PrivateLink
 |Lv.|タイトル|動画URL|備考|
@@ -309,7 +317,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [スタートアップのためのコンテナ入門 – Kubernetes 編 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-container-k8s-1/)| -| Kubernetes を選択すべきかどうかの考え方や、 AWS で Kubernetes を利用する場合のポイントなど。|
 |`300`| [コンテナランタイムの仕組みと、Firecracker、gVisor、Unikernelが注目されている理由。 Container Runtime Meetup #2 － Publickey](https://www.publickey1.jp/blog/20/firecrackergvisorunikernel_container_runtime_meetup_2.html)| -| CRI, OCI とは何か？コンテナランタイムの高レベルと低レベルについてなど。|
 
-## Cost / 料金
+## Cost (料金)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [AWSのコスト最適化/リザーブドインスタンス - AWS サービス別資料](https://d1.awsstatic.com/webinars/jp/pdf/services/20171110_AWS-BlackBelt_RI_update.pdf)| -| [損益分岐点についての図](https://d1.awsstatic.com/webinars/jp/pdf/services/20171110_AWS-BlackBelt_RI_update.pdf#page=71)が利用検討の参考になる。|
