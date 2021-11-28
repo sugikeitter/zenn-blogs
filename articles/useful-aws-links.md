@@ -266,6 +266,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [クロスアカウントな AWS Transit Gateway を、絵で見て（完全に）理解する。 - DevelopersIO](https://dev.classmethod.jp/articles/transitgateway-cross-account-diagram/)| -| Transit Gateway コンポーネントの位置関係、関連付け（アソシエーション）と伝播（プロパゲーション）が絵でわかりやすい。|
+|`200`| [Field Notes: Working with Route Tables in AWS Transit Gateway - AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/)| -| 複数の VPC とルートテーブルの関係の一枚絵がわかりやすい。|
+|`---`| [グノシーにおける AWS Transit Gateway 活用事例 - Gunosy Tech Blog](https://tech.gunosy.io/entry/gunosy-aws-transit-gateway)| -| 複数のアカウントと VPC に Direct Connect を接続していたが、 Transit Gateway で設計がシンプルになって考慮する点やリードタイムが減った話。|
 
 ## VPC endpoints (VPCe) / PrivateLink
 |Lv.|タイトル|動画URL|備考|
