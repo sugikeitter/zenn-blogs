@@ -266,6 +266,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [Azure AD と AWS SSOの連携 - fu3ak1's tech days](https://fu3ak1.hatenablog.com/entry/2020/12/20/000622)| -| IdP として Azure Active Directory を利用したAWS SSO の構築方法。|
 |`200`| [AWS クラウドサービス活用資料集 - AWSアカウント シングルサインオンの設計と運用 #IDフェデレーションで変わる運⽤の論点](https://d1.awsstatic.com/webinars/jp/pdf/services/20200722_AWSBlackbelt_%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AA%E3%83%B3%E3%81%AE%E8%A8%AD%E8%A8%88%E3%81%A8%E9%81%8B%E7%94%A8.pdf#page=53)| -| 権限セット数に制限がある中で多くのアカウントを管理する場合、 RBAC ではなく ABAC モデルの考え方について。|
 |`200`| [AWS SSO、AD、ABACを触ってみる - サーバーワークスエンジニアブログ](https://blog.serverworks.co.jp/2021/04/16/113023)| -| ABAC の設定手順の一例が記載されている。|
+|`---`| [AWS SSOでセキュアな管理とコスト削減　不正アクセス・サービス停止乗り越えたマルチアカウント対策 - ログミーTech](https://logmi.jp/tech/articles/324310)| -| AzureAD と AWS SSO 利用への移行理由と移行時のトラブルについても言及されている。|
 
 ## StepFunctions
 |Lv.|タイトル|動画URL|備考|
