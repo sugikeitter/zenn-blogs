@@ -115,7 +115,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## CloudFront
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`300`| [Visitor PrioritizationソリューションをCloudFront Functionsを使って実装するための考慮点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/visitor-prioritization-by-cloudfront-functions/)| -| CloudFront Functions　を利用したユーザーの優先制御、流量制御を行うための静的なウェイティングルームページにに誘導するソリューション。|
+|`200`| [CloudFront Functions の導入 – 任意の規模において低レイテンシーでコードをエッジで実行 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale/)| -| CloudFront Functions のユースケースと Lambda@Edge との比較など。|
+|`300`| [Visitor PrioritizationソリューションをCloudFront Functionsを使って実装するための考慮点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/visitor-prioritization-by-cloudfront-functions/)| -| CloudFront Functions を利用したユーザーの優先制御、流量制御を行うための静的なウェイティングルームページにに誘導するソリューション。|
 
 ## CloudHSM
 |Lv.|タイトル|動画URL|備考|
