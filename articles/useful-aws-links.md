@@ -291,6 +291,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [「Amazon S3 インターフェースエンドポイント（PrivateLink）ではプライベート DNS をサポートしていません」 の意味を絵をかいて腹落ちさせてみた - DevelopersIO](https://dev.classmethod.jp/articles/s3-privatelink-diagram/)| -| PrivateLink を利用した場合に設定される DNS 名が整理されている。|
 |`---`| [住信SBIネット銀行の PrivateLink 事例](https://pages.awscloud.com/rs/112-TZM-766/images/K1-02.pdf#page=27)| -| 提携企業へ利用してもらうシステムをインターネットに公開することなく PrivateLink を利用することで AWS のネットワークに閉じた形で複数企業へ提供している事例。|
 
+## WAF
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| [AWS WAF セキュリティオートメーション - AWS ソリューション](https://aws.amazon.com/jp/solutions/implementations/aws-waf-security-automations/)| -| 一般的なウェブベースの攻撃をフィルタリングするための、一連の AWS WAF (ウェブアプリケーションファイアウォール) ルールが自動的にデプロイされる仕組みの参照実装と手順。|
+
 # カテゴリ別
 
 ## Availability
@@ -334,7 +339,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB とは？が簡潔にまとめられている。|
 
-## Data Lake / Data Warehouse (DWH)
+## Data Lake (データレイク) / Data Warehouse (DWH・データウェアハウス)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [レイクハウスアーキテクチャとは - Amazon Web Services](https://aws.amazon.com/jp/big-data/datalakes-and-analytics/data-lake-house/)| -| レイクハウスアプローチの仕組みや必要になる理由についてなど。|
