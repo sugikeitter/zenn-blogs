@@ -344,6 +344,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`100`| [レイクハウスアーキテクチャとは - Amazon Web Services](https://aws.amazon.com/jp/big-data/datalakes-and-analytics/data-lake-house/)| -| レイクハウスアプローチの仕組みや必要になる理由についてなど。|
 |`200`| [貯めるだけじゃもったいない！AWS 分析サービスを使ったデータレイクの有効活用 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-06_AWS_Summit_Online_2021_ANT01.pdf) | [`YouTube`](https://www.youtube.com/watch?v=95P_6_CJeys)| データレイクについての説明や、AWS でデータレイクを活用するときのサービスの紹介。|
+|`300`| [「ふくおかＦＧ ＤＸ推進基盤の構築」～おいしいデータレイクの作り方～ - AWS Summit 2020](https://pages.awscloud.com/rs/112-TZM-766/images/CUS-54_AWS_Summit_Online_2020_FFG.pdf)| -| データ分析の必要性から、 Glue と AWS サービスを組み合わせて分析の仕組みをどのように構築したかが段階的に説明されている。|
 
 ## Developing
 |Lv.|タイトル|動画URL|備考|
