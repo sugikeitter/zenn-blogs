@@ -295,6 +295,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`---`| [AWS WAF セキュリティオートメーション - AWS ソリューション](https://aws.amazon.com/jp/solutions/implementations/aws-waf-security-automations/)| -| 一般的なウェブベースの攻撃をフィルタリングするための、一連の AWS WAF (ウェブアプリケーションファイアウォール) ルールが自動的にデプロイされる仕組みの参照実装と手順。|
+|`---`| [Log4jで話題になったWAFの回避/難読化とは何か - WAF Tech Blog - クラウド型 WAFサービス Scutum 【スキュータム】](https://www.scutum.jp/information/waf_tech_blog/2021/12/waf-blog-081.html)| -| AWS 関係なく WAF の実装の観点から防げるものが理解しやすく記載されている。|
 
 # カテゴリ別
 
