@@ -345,6 +345,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB とは？が簡潔にまとめられている。|
+|`100`| [NoSQL とは?（NoSQL データベースの解説と SQL との比較）- AWS](https://aws.amazon.com/jp/nosql/)| -| NoSQL についてのわかりやすい解説、 RDB との使い分けの参考になるような一般的な特徴の比較がまとめられている。|
 
 ## Data Lake (データレイク) / Data Warehouse (DWH・データウェアハウス)
 |Lv.|タイトル|動画URL|備考|
