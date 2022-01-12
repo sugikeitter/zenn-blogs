@@ -148,6 +148,12 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`---`| [AWS導入事例 株式会社ゼンリンデータコム様 - TOKAIコミュニケーションズ AWSソリューション](https://www.cloudsolution.tokai-com.co.jp/case/zenrin-datacom.html)| -| お客様データセンター <-> DXロケーション <-> AWS のネットワークへの接続の具体的な図がわかりやすい。|
 
+## DMS
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [はじめてAWS DMSを検討する際に読んでいただきたいこと - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/first-step-of-dms/)| -| AWS DMSの特徴と強み
+や、物理レプリケーション方式と論理（ロジカル）レプリケーション方式の違い、利用する際の注意点がまとまっている。|
+
 ## DynamoDB
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
