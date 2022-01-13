@@ -440,6 +440,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [サーバーレスコンピューティング - ユースケース別クラウドソリューション - AWS](https://aws.amazon.com/jp/serverless/)| -| AWS でのサーバーレスとは？について。|
 |`200`| [形で考えるサーバーレス設計 / サーバーレスパターン - AWS](https://aws.amazon.com/jp/serverless/patterns/serverless-pattern/)| -| サーバーレスの組み合わせの代表的な適用シーン/ユースケースと実装形。|
 |`300`| [イチから理解するサーバーレスアプリケーション - 開発サーバーレス開発環境とテスト](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf)| -| [テストしやすい Lambda 関数の書き方](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf#page=56)や、[AWSのサービスを利⽤するコードのUnit Test](https://pages.awscloud.com/rs/112-TZM-766/images/20200827_serverless_session2.pdf#page=73)の方法論など。|
 |`300`| [2021年版、サーバーレスのテスト手法を考える / Serverless Testing 2021 - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing-2021)| -| 外部リソースを含むテスト、後半なスタックで構成されたビジネスロジック、非同期の副作用を伴うテストなど。|
