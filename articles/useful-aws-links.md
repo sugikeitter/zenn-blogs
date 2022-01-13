@@ -257,6 +257,16 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [[AWS] Site to Site VPN の BGP 経路を制御しよう - DevelopersIO](https://dev.classmethod.jp/articles/control-bgp-route-on-site-to-site-vpn/)| -| Site-to-Site VPN を利用した場合の2つのトンネルと Virtual Private Gateway(VGW), Transit Gateway を利用した場合の BGP による経路制御の方法が分かりやすくまとめっている。|
 |`300`| [Simulating Site-to-Site VPN Customer Gateways Using strongSwan - AWSNetworking & Content Delivery](https://aws.amazon.com/blogs/networking-and-content-delivery/simulating-site-to-site-vpn-customer-gateways-strongswan/)| -| AWS 環境のみで擬似的にオンプレミスのネットワークを作成し、Site-toSite VPN を構築する手順。Certificate-based な [part 2](https://aws.amazon.com/blogs/networking-and-content-delivery/simulating-site-to-site-vpn-customer-gateways-using-strongswan-part-2-certificate-based-authentication/)もある。|
 
+## Snowball
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| [AWS 導入事例：KDDI株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/kddi_2022/)| -| 252台の AWS Snowball Edge を活用して25PBの大容量データ移行を約2年で完遂した事例。|
+
+## Snowmobile
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| AWS re:Invent 2016: Move Exabyte-Scale Data Sets with AWS Snowmobile| [`YouTube`](https://youtu.be/8vQmTZTq7nw)| AWS re:Invent 2016 での Snowmobile 発表の動画。[ここの59秒あたり](https://youtu.be/8vQmTZTq7nw?t=59)から実物が登場する衝撃だけはほぼ忘れられない瞬間。|
+
 ## Systems Manager
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
@@ -267,8 +277,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## SQS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| SQS 標準キューのCLIを利用した動作デモ|[`YouTube`](https://www.youtube.com/watch?v=8cAk1_GSV0g&t=336s)| 動画なのでプロデューサー・キュー・コンシューマーの関係がわかりやすい。順序保証がないことや、コンシューマーを増やすことで処理量が線形的に増えていくことがわかる。|
-|`200`| SQS FIFOキューのCLIを利用した動作デモ|[`YouTube`](https://www.youtube.com/watch?v=8cAk1_GSV0g&t=660s)| 標準キューと比較してコンシューマーが増えても処理量が線形的に増えるわけではないことや、並列化をしたい場合のグループID利用、プロデューサーからの重複排除が可能なことがわかる。|
+|`200`| SQS 標準キューのCLIを利用した動作デモ| [`YouTube`](https://www.youtube.com/watch?v=8cAk1_GSV0g&t=336s)| 動画なのでプロデューサー・キュー・コンシューマーの関係がわかりやすい。順序保証がないことや、コンシューマーを増やすことで処理量が線形的に増えていくことがわかる。|
+|`200`| SQS FIFOキューのCLIを利用した動作デモ| [`YouTube`](https://www.youtube.com/watch?v=8cAk1_GSV0g&t=660s)| 標準キューと比較してコンシューマーが増えても処理量が線形的に増えるわけではないことや、並列化をしたい場合のグループID利用、プロデューサーからの重複排除が可能なことがわかる。|
 
 ## SSO
 |Lv.|タイトル|動画URL|備考|
