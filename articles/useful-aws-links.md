@@ -146,7 +146,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Direct Connect (DX)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`300`| [AWS Direct Connect でのアクティブ/パッシブ BGP 接続の構築 | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/creating-active-passive-bgp-connections-over-aws-direct-connect/)| -| 複数の DX 接続を利用して、経路制御やネットワークの最適化をする方法。|
+|`300`| [AWS Direct Connect でのアクティブ/パッシブ BGP 接続の構築 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/creating-active-passive-bgp-connections-over-aws-direct-connect/)| -| 複数の DX 接続を利用して、経路制御やネットワークの最適化をする方法。|
 |`---`| [AWS導入事例 株式会社ゼンリンデータコム様 - TOKAIコミュニケーションズ AWSソリューション](https://www.cloudsolution.tokai-com.co.jp/case/zenrin-datacom.html)| -| お客様データセンター <-> DXロケーション <-> AWS のネットワークへの接続の具体的な図がわかりやすい。|
 
 ## DMS
