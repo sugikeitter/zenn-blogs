@@ -35,6 +35,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |[よくある質問](https://aws.amazon.com/jp/faqs/)| サービスごとによくある質問ページが用意されていて、利用する時に知りたい情報が多く書かれている |
 |[AWS サポート - ナレッジセンター](https://aws.amazon.com/jp/premiumsupport/knowledge-center/)| AWS のお客様から最も頻繁に寄せられるご質問とご要望をいくつかご紹介しているサイト。|
 |[AWSサービス別資料](https://aws.amazon.com/jp/aws-jp-introduction/aws-jp-webinar-service-cut/)| 各サービスごとに基礎から発展的な知識まで素早く知るのに役立つ資料集|
+|[AWS 料金見積りツール - AWS Pricing Calculator](https://calculator.aws/#/)| サービスごとのコスト見積もりができるツール。|
 
 ## 公式ブログ
 |URL|備考|
