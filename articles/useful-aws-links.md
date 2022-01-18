@@ -112,6 +112,9 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Organizations × CloudFormation StackSetsの組み合わせが素晴らしい - プログラマでありたい](https://blog.takuros.net/entry/2020/03/25/093247)| -| StackSets の利用例とメリットなど。|
+|`---`| [AWS 導入事例：本田技研工業株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/honda/)| -| CloudFormation の活用でサーバー環境の設定を差分なく各リージョンに展開することができ、通常なら1拠点で2～3ヶ月はかかるところを、約2週間に短縮。|
+|`---`| [AWS 導入事例：京セラ株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/kyocera/)| -| 開発、検証、本番の3つの環境を合わせて数百台のサーバーを用意する必要があり、テンプレートを使って環境を自動構築する CloudFormation などを利用して工数を削減。|
+
 
 ## CloudFront
 |Lv.|タイトル|動画URL|備考|
