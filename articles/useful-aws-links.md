@@ -156,8 +156,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## DMS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [はじめてAWS DMSを検討する際に読んでいただきたいこと - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/first-step-of-dms/)| -| AWS DMSの特徴と強み
-や、物理レプリケーション方式と論理（ロジカル）レプリケーション方式の違い、利用する際の注意点がまとまっている。|
+|`200`| [はじめてAWS DMSを検討する際に読んでいただきたいこと - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/first-step-of-dms/)| -| AWS DMSの特徴と強みや、物理レプリケーション方式と論理（ロジカル）レプリケーション方式の違い、利用する際の注意点がまとまっている。|
 
 ## DynamoDB
 |Lv.|タイトル|動画URL|備考|
