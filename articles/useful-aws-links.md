@@ -286,7 +286,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| SQS FIFOキューのCLIを利用した動作デモ| [`YouTube`](https://www.youtube.com/watch?v=8cAk1_GSV0g&t=660s)| 標準キューと比較してコンシューマーが増えても処理量が線形的に増えるわけではないことや、並列化をしたい場合のグループID利用、プロデューサーからの重複排除が可能なことがわかる。|
 |`---`| [クックパッドの機械学習を支える基盤のつくりかた - AWS Summit Tokyo 2017](https://d1.awsstatic.com/events/jp/2017/summit/slide/D3T5-2.pdf)| -| 時間のかかる料理画像の自動認識処理を SQS を利用することで非同期なアーキテクチャとして実現。|
 |`---`| [Sansanがメッセージング (SQS) でスケーラビリティを手に入れた話](https://www.slideshare.net/atsushikambara/sansan-sqs)| -| SQS で非同期な設計にすることでデータベースの負荷の増減を安定させたり、システム全体は止まらせないままで部分的にメンテナンスを行ったりなど。|
-
+|`---`| [1日300万件のレコードを処理するアーキテクチャ構成　保育士さんの負担はDesign for Failureな「午睡チェック」でサポート - ログミーTech](https://logmi.jp/tech/articles/325091)| -| DynamoDB への書き込みの間に SQS を挟むことで書き込み量にスパイクが発生しないよう平準化させている。|
 
 ## SSO
 |Lv.|タイトル|動画URL|備考|
