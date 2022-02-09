@@ -467,6 +467,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [2021年版、サーバーレスのテスト手法を考える / Serverless Testing 2021 - Speaker Deck](https://speakerdeck.com/_kensh/serverless-testing-2021)| -| 外部リソースを含むテスト、後半なスタックで構成されたビジネスロジック、非同期の副作用を伴うテストなど。|
 |`300`| [今日から始める、サーバーレス Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| Well-Architected フレームワークに則った設計をするための具体例。|
 |`300`| [Serverless Land - Resources for learning about AWS serverless technology](https://serverlessland.com/)| -| サーバーレスの設計パターンなど。|
+|`---`| [物流支援サービスを支えるAWSサーバーレスアーキテクチャ戦略 - ZOZO TECH BLOG](https://techblog.zozo.com/entry/aws-serverless-architecture-strategy)| -| 自社ECサイト間でリアルタイムに在庫情報を連携する仕組みでサーバーレスを活用。|
 
 ## Storage
 |Lv.|タイトル|動画URL|備考|
