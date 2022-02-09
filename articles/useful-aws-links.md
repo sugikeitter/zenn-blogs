@@ -202,6 +202,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [EKS Anywhereのファーストインプレッション - inductor's blog](https://blog.inductor.me/entry/2021/09/10/031541)| -| |
 |`---`| [AWS 導入事例：freee株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/freee/)| -| EKS 利用により Kubernetes のコントロールプレーンの運用を AWS に任せることで開発の課題に対応。|
 
+## ElastiCache
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`---`| [Backends For Frontends（BFF）はじめました - ZOZO TECH BLOG](https://techblog.zozo.com/entry/zozo-aggregation-api-bff)| -| APIと各バックエンドの間に ElastiCache による Redis を利用する事で各モジュールをキャッシュする仕組みを構築。|
+
 ## ELB
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
