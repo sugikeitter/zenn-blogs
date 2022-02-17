@@ -281,6 +281,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS Systems Manager(SSM) の数多い機能群を攻略するための図を書いてみた 2021 - DevelopersIO](https://dev.classmethod.jp/articles/all-ssm-capabilities-2021/)| -| Systems Manager の機能一覧が把握しやすい図。|
+|`200`| [情シス向け運用ユースケース - AWS Summit 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-51_AWS_Summit_Online_2021_ManagementOnAws.pdf)| [`YouTube`](https://youtu.be/c5MFQLggfQ0)| Systems Manager を利用したサーバーのインベントリ可視化、パッチ適用、リモートアクセス、一括管理などのユースケースがまとめられている。|
 |`200`| [AWSでSSMエージェントの自動更新をCloudFormationのスタックセット(StackSets)で複数のリージョンやアカウントに適用](https://zenn.dev/sugikeitter/articles/automating-updates-to-ssm-agent-with-cfn-stacksets)| -| マルチアカウント環境などで全てのサーバーのSSMエージェントの自動更新させる方法。|
 |`300`| [AWS IAMの安全な管理方法 · DeNA Engineers' Blog](https://engineer.dena.com/posts/2019.12/aws-iam-management/)| -| IAM ロールが利用できないシステムからAWSサービスへのアクセス時に、定期的にIAMユーザのシークレットアクセスキーのローテートを行う方法。|
 
