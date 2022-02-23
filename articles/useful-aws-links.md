@@ -468,7 +468,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
 |`300`| [AWS環境にセキュアなベースラインを提供するテンプレート「Baseline Environment on AWS」のご紹介 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-baseline-environment-on-aws/)| -| AWS Japanのソリューションアーキテクトが AWS Samples に公開している BLEA についての紹介。Control Tower によるマルチアカウント環境でも同じように利用可能。|
 |`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
-|`300`| [DDoS に対する AWS のベストプラクティス（英語）](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf) -| DDoS 攻撃に対する回復力のあるアプリケーションを構築するための規範的な DDoS ガイダンス。ボリューム型攻撃やアプリケーション層に対する攻撃など、さまざまな攻撃タイプの紹介と各攻撃タイプを管理する上で最も効果的なベストプラクティスの説明。DDoS 緩和戦略に適合するサービスや機能および、それぞれがどのようにアプリケーションを保護するのに役立つのかについての要点など。|
+|`300`| [DDoS に対する AWS のベストプラクティス（英語）](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)| -| DDoS 攻撃に対する回復力のあるアプリケーションを構築するための規範的な DDoS ガイダンス。ボリューム型攻撃やアプリケーション層に対する攻撃など、さまざまな攻撃タイプの紹介と各攻撃タイプを管理する上で最も効果的なベストプラクティスの説明。DDoS 緩和戦略に適合するサービスや機能および、それぞれがどのようにアプリケーションを保護するのに役立つのかについての要点など。|
 
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
