@@ -373,6 +373,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [AWS が提供するクラウドデータベース - AWS](https://aws.amazon.com/jp/products/databases/)| -| AWS のデータベースサービス一覧やそれぞれの特徴、マネージドなデータベースを利用するメリットなど。|
+|`100`| [NoSQL とは?（NoSQL データベースの解説と SQL との比較）| AWS](https://aws.amazon.com/jp/nosql/)| -| NoSQL (非リレーショナル) データベースの仕組みや、必要となる場面、NoSQL データベースのタイプなどがまとめられている。|
 |`100`| [社内SQL研修のために作った資料を公開します - 株式会社AI Shift](https://www.ai-shift.co.jp/techblog/1980)| -| SQL や RDB とは？が簡潔にまとめられている。|
 |`100`| [NoSQL とは?（NoSQL データベースの解説と SQL との比較）- AWS](https://aws.amazon.com/jp/nosql/)| -| NoSQL についてのわかりやすい解説、 RDB との使い分けの参考になるような一般的な特徴の比較がまとめられている。|
 
