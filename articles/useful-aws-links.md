@@ -238,6 +238,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [大量リクエストを低コストでさばく AWS Lambda 関数を JVM で実現 - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202110/jvm-lambda-function/?awsf.filter-name=*all)| -| Node.js, Python, Java での条件ごとのパフォーマンス比較や、GraalVM での native-image を利用する方法。|
 |`400`| [知らなくても困らないけど、知ると楽しいAWS Lambdaの裏側の世界 #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-awslambda-under-the-food/)| -| 実行環境である Firecracker や Lambda 関数の同期/非同期実行時のソフトウェアコンポーネント、コンテナイメージサポートの話など。|
 
+## Outposts
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [【日本初導入】 AWS Outposts ラックを徹底解説 第1回 〜導入・利用方法の概要〜 - NTT Communications Engineers' Blog](https://engineers.ntt.com/entry/2022/03/15/102459)| -| AWS Outposts ラックの仕様、導入方法、利用方法について、Outposts ならではの注意点なども踏まえて記載されている。|
+
 ## RDS
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
