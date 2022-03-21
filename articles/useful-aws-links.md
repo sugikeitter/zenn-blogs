@@ -488,6 +488,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [今日から始める、サーバーレス Well-Architected Framework - Speaker Deck](https://speakerdeck.com/_kensh/serverless-well-architected-framework)| -| Well-Architected フレームワークに則った設計をするための具体例。|
 |`300`| [Serverless Land - Resources for learning about AWS serverless technology](https://serverlessland.com/)| -| サーバーレスの設計パターンなど。|
 |`---`| [物流支援サービスを支えるAWSサーバーレスアーキテクチャ戦略 - ZOZO TECH BLOG](https://techblog.zozo.com/entry/aws-serverless-architecture-strategy)| -| 自社ECサイト間でリアルタイムに在庫情報を連携する仕組みでサーバーレスを活用。|
+|`---`| [AWS 導入事例：株式会社 日立製作所 - AWS](https://aws.amazon.com/jp/solutions/case-studies/hitachi-serverless/)| -| 1,000 万台超の自動車へ更新ソフトウェアを配信する OTA サービスをサーバーレスで移行を検討し、運用負荷も大幅に軽減できるという試算。|
+|`---`| [AWS 導入事例：ヤマハ発動機株式会社 | AWS](https://aws.amazon.com/jp/solutions/case-studies/yamaha-nri/)| -| POS システムをサーバーレスのクラウドネイティブアーキテクチャで構築し、わずか 3 ヶ月で実装。システムの構築コストはバックエンドの構築費用がほぼゼロだったため当初見込んだ開発予算よりも抑えられた。さらに、サーバーレスのマイクロサービスとしてシステム構築することで、短期間かつ低コストでの開発を実現。システム全体の可用性と信頼性を向上させるとともに、拡張性と保守性の向上も可能に。|
 
 ## Storage
 |Lv.|タイトル|動画URL|備考|
