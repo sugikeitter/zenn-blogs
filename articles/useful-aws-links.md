@@ -69,6 +69,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |https://github.com/awslabs| ↑以外の AWS の OSS ツールなど。|
 |https://github.com/awsdocs| ユーザーガイドなどのドキュメントや [SDK のサンプルコード](https://github.com/awsdocs/aws-doc-sdk-examples)など。|
 |https://github.com/aws-samples| AWS の利用例やワークショップなど。 |
+|https://github.com/aws-ia| AWS Integration and Automation のリポジトリ。Terraform に関するものが多いが、CloudFormation 関連のものも少しある。|
 |https://github.com/boto| AWS CLI のコアロジックや AWS SDK for Python のコード。|
 |https://github.com/aws-amplify| AWS Amplify の独立したリポジトリ。|
 |https://github.com/aws-containers| AWS コンテナ関連の独立したリポジトリ。ツールや利用例、ワークショップなど。|
