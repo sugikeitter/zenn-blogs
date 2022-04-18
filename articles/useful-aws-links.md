@@ -265,6 +265,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## S3
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`300`| [S3のコストを大幅に削減した話 - Gunosy Tech Blog](https://tech.gunosy.io/entry/s3_costcut)| -| gzip の特徴を活かして、複数の gzip ファイルを MultipartUpload で 単一の gzip ファイルにすることで、ストレージクラス変更時の Glacier への PUT リクエストの回数を減らし、コスト削減させた。|
 |`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
 |`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
 
@@ -405,6 +406,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`100`| [「コード書きました、あとはよろしく」では優れたソフトウェアは生まれない　コンテナのスペシャリストが語る、運用性を損なう8つの実装例 - ログミーTech](https://logmi.jp/tech/articles/325995)| -| Amazon AWS の CTO である Werner Vogels の「You build it, you run it」という言葉を、この言葉が使われた前後の文章を含めて「開発と運用の両者が共通のゴールを持って、共同して、運用上の責任を持つことがとても大事だ」と解説している。|
 |`200`| [Amazon S3を開発・運用する方法 - 巨大なマイクロサービスと組織 - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-33_AWS_Summit_Online_2020_STG01.pdf)| [`AWS`](https://resources.awscloud.com/vidyard-all-players/aws-33-aws-summit-online-2020-720p-2)| S3 の開発チームの DevOps の手法や、そのための組織構成など。|
+
+## DevSecOps
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [DevSecOpsとは何か — 導入する組織が増加している理由 - メルカリエンジニアリング](https://engineering.mercari.com/blog/entry/20201214-bea4717e9a/)| -| DevSecOps の5つのコンセプトや注目されている理由など。|
 
 ## Infrastructure as Code (IaC)
 |Lv.|タイトル|動画URL|備考|
