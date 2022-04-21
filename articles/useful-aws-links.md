@@ -133,6 +133,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| [AWS CloudTrail ログをモニタリングするためのベストプラクティス - Datadog](https://www.datadoghq.com/ja/blog/monitoring-cloudtrail-logs/)| -| AWS CloudTrail 監査ログの構造、監視する重要な CloudTrail ログ、Datadog との連携など。|
 
+## CodeCommit
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [awslabs/git-secrets: Prevents you from committing secrets and credentials into git repositories](https://github.com/awslabs/git-secrets)| -| 認証情報を Git でコミットさせないためのツール。|
+
 ## Cognito
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
