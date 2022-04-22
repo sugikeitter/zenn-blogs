@@ -445,9 +445,12 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [Amazon RDS for Oracle / SQL Server への移行ベストプラクティス - AWS Summit 2019](https://pages.awscloud.com/rs/112-TZM-766/images/B3-01.pdf)| -| 考えられる移行パスや、ニアゼロダウンタイム移行の一例など。|
 |`200`| [AWSのサービスを使ったオンプレミスからのデータベース移⾏ - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-18_AWS_Summit_Online_2020_DAT01.pdf)| -| データベースを移⾏する際のパターン、SCT/DMSを活⽤したデータベース移⾏の具体例など。|
 
-## Monitoring (モニタリング・監視)
+## Monitoring / Observability (モニタリング・監視 / オブザーバビリティ・可観測性)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [モニタリングとオブザーバビリティ - AWS マネジメントとガバナンス](https://aws.amazon.com/jp/products/management-and-governance/use-cases/monitoring-and-observability/)| -| AWS のオブザーバビリティの定義。|
+|`100`| [オブザーバビリティ（可観測性）入門ガイド - New Relic](https://newrelic.com/jp/resources/ebooks/the-age-of-observability)| -| New Relic の考え方だが、"監視とはエラーや問題の発生時に迅速に対応できるようにする、「データを収集」することを目的としてシステムを構築することです。一方、可観測性とはエラーや問題が発生したことを検知するだけでなく、それが「なぜ」起きたのか、その原因を探り、改善のアクションに繋げることを目的としてデータを収集します。"というのがわかりやすい。|
+|`100`| [これからのSREはモニタリングからオブザーバビリティへ APMやEUMを使いこなせ【デブサミ2021】 (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/13696)| -| 単なるモニタリング結果の報告か、モニタリング結果を元に調査できるかの具体例がわかりやすい。|
 |`200`| [AWS Startup Tech Meetup #3: かんたんコンテナロギング選手権](https://speakerdeck.com/prog893/aws-startup-tech-meetup-number-3-kantankontenaroginguxuan-shou-quan)| -| コンテナのログのよくある課題、ログの種類や転送方法、格納先、サンプルアーキテクチャ。|
 |`300`| [KubernetesでFluentdの信頼性を担保するための3つの観点](https://zenn.dev/taisho6339/articles/eff38b47cbdbcb)| -| マイクロサービスやコンテナのログでよく利用される Fluentd の信頼性について。|
 
