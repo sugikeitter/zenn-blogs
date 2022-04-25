@@ -410,7 +410,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## DevOps
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [デロイト トーマツ ウェブサービス株式会社(MMM)は『AWS DevOps コンピテンシー』認定を取得しました | デロイト トーマツ ウェブサービス株式会社（DWS）公式ブログ](https://blog.mmmcorp.co.jp/blog/2020/09/24/aws_competency_program_devops/)| -| 記事の中にある [DevOps の構成要素を表す図](https://blog.mmmcorp.co.jp/images/aws_competency_program_devops/devops.png) がわかりやすい。|
+|`100`| [DevOpsとは何か？ そのツールと組織文化、アジャイルとの違い - Build Insider](https://www.buildinsider.net/enterprise/devops/01)| -| DevOps の概念の原典や目的、"開発チーム（Development）と運用チーム（Operations）がお互いに協調し合うことで、開発・運用するソフトウェア／システムによってビジネスの価値をより高めるだけでなく、そのビジネスの価値をより確実かつ迅速にエンドユーザーに届け続ける"や、開発チームと運用チームの役割の違いによる対立構造がまとまっている。|
+|`100`| [デロイト トーマツ ウェブサービス株式会社(MMM)は『AWS DevOps コンピテンシー』認定を取得しました - デロイト トーマツ ウェブサービス株式会社（DWS）公式ブログ](https://blog.mmmcorp.co.jp/blog/2020/09/24/aws_competency_program_devops/)| -| 記事の中にある [DevOps の構成要素を表す図](https://blog.mmmcorp.co.jp/images/aws_competency_program_devops/devops.png) がわかりやすい。|
 |`100`| [DevOpsトポロジー - Ryuzee.com](https://www.ryuzee.com/contents/blog/14567)| -| DevOps トポロジーのアンチタイプとそうでないもののパターンと解説が簡潔にまとめられている。|
 |`100`| [「コード書きました、あとはよろしく」では優れたソフトウェアは生まれない　コンテナのスペシャリストが語る、運用性を損なう8つの実装例 - ログミーTech](https://logmi.jp/tech/articles/325995)| -| Amazon AWS の CTO である Werner Vogels の「You build it, you run it」という言葉を、この言葉が使われた前後の文章を含めて「開発と運用の両者が共通のゴールを持って、共同して、運用上の責任を持つことがとても大事だ」と解説している。|
 |`100`| [マイクロサービスの失敗は技術だけの問題か――Amazonに学ぶ開発・運用組織の理想形とは (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/15284)| -| マイクロサービスを採用しても、適切な権限委譲ができておらず、それぞれのチームが全ての工程に責任を持っている状態でなければうまくいかない場合もあるという話（p.2）など、マイクロサービス はあくまで手段であることが簡潔に語られている。|
