@@ -81,9 +81,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 | [AWS SDK for Java](https://sdk.amazonaws.com/java/api/latest/)| javadoc を HTML にした Java ユーザーにはお馴染みの形式。|
 | [AWS SDK for Python (Boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)| 1ページの情報量が多いので、少し表示が重いこともあるので注意。|
 
-## おまけ
+## 学習に役立つ情報
 |URL|備考|
 |---|---|
+|[ハンズオンの「腹落ち問題」を改善する 5 Tips - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202103/five-tips-accept-handson-situation/)| ハンズオンや演習を手順通り実施した時の学習効果をより高めるための Tips が紹介されている。とても納得感がありおすすめ！|
+|[AWS のアーキテクチャ図を描きたい ! でもどうすれば良いの ? - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202204/way-to-draw-architecture/)| AWS のアーキテクチャ図を描くときに最初に読んでおくと効果的な内容。|
 |[AWS Stash](https://awsstash.com/)|公式ではないがAWS関連資料が高速に検索できるサイト。|
 | `site:d1.awsstatic.com`<br>`site:pages.awscloud.com`| Google 検索のキーワードに追加すると、AWS イベントの発表資料の PDF が多く検索結果にヒットするので便利。`site:d0.awsstatic.com`もあるけど少し古め？かも。両方のドメインをまとめて検索したい場合は`<検索ワード> site:pages.awscloud.com OR site:d1.awsstatic.com`で検索可能。|
 
