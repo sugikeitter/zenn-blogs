@@ -354,6 +354,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| AZ が多い場合のメリットや過去の AZ 障害などの話。|
+|`200`| [Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)| -| 災害対策のホワイトペーパー。戦略の4パターン(バックアップとリストア/パイロットライト/ウォームスタンバイ/マルチアクティブ)と、AWS サービスを利用した具体的な設計事例など。このホワイトペーパーは [AWS でのディザスタリカバリ (DR) アーキテクチャ、パートI：クラウドでのリカバリの戦略 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/disaster-recovery-dr-architecture-on-aws-part-1-strategies-for-recovery-in-the-cloud/) でも解説されている。|
 
 ## Backup / Disaster Recovery
 |Lv.|タイトル|動画URL|備考|
