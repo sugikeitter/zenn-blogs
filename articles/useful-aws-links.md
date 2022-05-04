@@ -355,6 +355,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| [Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)| -| 災害対策のホワイトペーパー。戦略の4パターン(バックアップとリストア/パイロットライト/ウォームスタンバイ/マルチアクティブ)と、AWS サービスを利用した具体的な設計事例など。このホワイトペーパーは [AWS でのディザスタリカバリ (DR) アーキテクチャ、パートI：クラウドでのリカバリの戦略 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/disaster-recovery-dr-architecture-on-aws-part-1-strategies-for-recovery-in-the-cloud/) でも解説されている。|
 |`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| AZ が多い場合のメリットや過去の AZ 障害などの話。|
+|`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| マルチリージョン構成でのデータ整合性や切替⽅式などの重要な検討事項、ビジネスニーズとコストのバランスについて。|
+|`200`| [Network視点で考えるシームレスなマルチリージョンへの移行と検討](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T3-Session.pdf)| -| マルチリージョン構成で Route53, Global Accelerator の違いなど。|
 
 ## Backup / Disaster Recovery
 |Lv.|タイトル|動画URL|備考|
@@ -472,12 +474,6 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [AWS Organizations における組織単位のベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-organizational-units-with-aws-organizations/)| -| AWS が推奨する「ランディングゾーン」と呼ばれる安全かつ生産性の高いマルチアカウント AWS 環境を構築する要素について。組織単位 (Organization Unit: OU) の分割方法など。|
 |`---`| [【オンラインMeetup イベントレポート】第一回 AWSマルチアカウント事例祭り - ZOZO TECH BLOG](https://techblog.zozo.com/entry/20200908-meetup-report) / [`logmi 書き起こし`](https://logmi.jp/events/2464)| [`YouTube`](https://www.youtube.com/watch?v=OV7r1xWuvSg)| 1. AWS Configを用いたマルチアカウント・マルチリージョンでのリソース把握とコンプライアンス維持への取り組みについて (株式会社ZOZOテクノロジーズ) <br> 2. マルチアカウント運用の開始までの取り組み (株式会社ウェザーニューズ) <br> 3. 「進化し続けるインフラ」のためのマルチアカウント管理 (株式会社リクルート) => 約90の AWS アカウントに対して横断的な管理、コスト配賦、共通機能の提供などの運用について。|
 |`---`| [【オンラインMeetup イベントレポート】第二回 AWSマルチアカウント事例祭り - ZOZO TECH BLOG](https://techblog.zozo.com/entry/20210209-meetup-report) / [`logmi  書き起こし`](https://logmi.jp/events/2551)| [`YouTube`](https://www.youtube.com/watch?v=LHVifH4P4GM)| 1. マルチアカウントでのIAMユーザ把握と可視化 IAMユーザー棚卸しへの取り組み (株式会社ZOZOテクノロジーズ) <br> 2. AWS導入から3年 AWSマルチアカウント管理で変わらなかったこと変えていったこと (ニフティ株式会社) <br> 3. セキュリティインシデントを乗り越えるために行ったマルチアカウントでの取り組みについて (Classi株式会社)|
-
-## Multi Region (マルチリージョン)
-|Lv.|タイトル|動画URL|備考|
-|---|---|---|---|
-|`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| マルチリージョン構成でのデータ整合性や切替⽅式などの重要な検討事項、ビジネスニーズとコストのバランスについて。|
-|`200`| [Network視点で考えるシームレスなマルチリージョンへの移行と検討](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T3-Session.pdf)| -| マルチリージョン構成で Route53, Global Accelerator の違いなど。|
 
 ## Network
 |Lv.|タイトル|動画URL|備考|
