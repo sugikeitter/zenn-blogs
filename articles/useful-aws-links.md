@@ -259,7 +259,6 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [Amazon Aurora アーキテクチャ概要](https://pages.awscloud.com/rs/112-TZM-766/images/01_Amazon%20Aurora%20%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E6%A6%82%E8%A6%81.pdf)| -| [2020/09/10に開催された第1回 Amazon RDS Online Seminar](https://aws.amazon.com/jp/blogs/news/amazon-rds-online-seminar1-qa-202009/)の資料。[Aurora が⾼いパフォーマンスを発揮する理由](https://pages.awscloud.com/rs/112-TZM-766/images/01_Amazon%20Aurora%20%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E6%A6%82%E8%A6%81.pdf#page=31)も。|
 |`200`| [Amazon RDS Online Seminar 「忘れちゃいけない！Amazon RDS/Amazon Aurora のアップグレードとその方法」資料・動画及び QA 公開 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/amazon-rds-online-seminar-20210617/)| -| 2021/6/17に開催した Amazon RDS Online Seminar「忘れちゃいけない！Amazon RDS/Amazon Aurora のアップグレードとその方法」の資料・動画。|
 |`200`| [新しい Amazon RDS のマルチ AZ 配置オプション – MySQL および PostgreSQL データベースでご利用可能 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/amazon-rds-multi-az-db-cluster/)| -| マルチ AZ DB クラスターの特徴（インスタンスが提供するローカルストレージを使用してトランザクションログを保存/フェイルオーバーにかかる時間/ホットスタンバイ/レプリケートはトランザクションログのみでクォーラムメカニズムを使用）などがまとめられている。|
-|`300`| [データベースの視点で考えるマルチリージョンアーキテクチャ](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T4-Session.pdf)| -| RDS, Aurora のマルチリージョン利用が簡潔にまとまっている。|
 |`300`| [Aurora MySQL のバックアップは本当にそれでいいのだろうか？ - CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/29925/)| -| バイナリログである特定のクエリまで戻す方法と、バックトラック / ポイントインタイムリカバリで日時指定で復元する方法。|
 |`300`| [Amazon RDS for Oracle で実現するエンタープライズ領域における高性能/高可用性構成 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-49_AWS_Summit_Online_2021_RDSforOracle_Enterprise.pdf)|[`YouTube`](https://www.youtube.com/watch?v=qXspvi86GHg)| Oracle RAC を利用できない RDS で可用性高める方法。|
 |`300`| [Amazon Aurora はこう使え！貴方にだけ便利な使い方教えます！ - AWS Summit Tokyo 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-25_AWS_Summit_Online_2020_DAT01.pdf)| -| Database cloning による環境の複製や復旧、監視、分析のための機能など。|
@@ -351,18 +350,14 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 
 # カテゴリ別
 
-## Availability
+## Availability (可用性) / Multi Region (マルチリージョン)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)| -| 災害対策のホワイトペーパー。戦略の4パターン(バックアップとリストア/パイロットライト/ウォームスタンバイ/マルチアクティブ)と、AWS サービスを利用した具体的な設計事例など。このホワイトペーパーは [AWS でのディザスタリカバリ (DR) アーキテクチャ、パートI：クラウドでのリカバリの戦略 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/disaster-recovery-dr-architecture-on-aws-part-1-strategies-for-recovery-in-the-cloud/) でも解説されている。|
 |`200`| [なぜ「AWS で負荷分散は３AZ にまたがるのがベストプラクティス」と言われるのか 可用性の面から考えてみた](https://dev.classmethod.jp/articles/202008-three-az-load-balancing/)| -| AZ が多い場合のメリットや過去の AZ 障害などの話。|
 |`200`| [マルチリージョン、ちょっとその前に...-サービスの可用性について考える - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-53_AWS_Summit_Online_2021_Thinking-about-Availability.pdf) | [`Youtube`](https://www.youtube.com/watch?v=8MyZ84WEjrc)| マルチリージョン構成でのデータ整合性や切替⽅式などの重要な検討事項、ビジネスニーズとコストのバランスについて。|
 |`200`| [Network視点で考えるシームレスなマルチリージョンへの移行と検討](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T3-Session.pdf)| -| マルチリージョン構成で Route53, Global Accelerator の違いなど。|
-
-## Backup / Disaster Recovery
-|Lv.|タイトル|動画URL|備考|
-|---|---|---|---|
-|`300`| [Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/ja_jp/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)| -| 障害復旧のホワイトペーパー。|
+|`300`| [データベースの視点で考えるマルチリージョンアーキテクチャ](https://pages.awscloud.com/rs/112-TZM-766/images/ORL-T4-Session.pdf)| -| RDS, Aurora のマルチリージョン利用が簡潔にまとまっている。|
 
 ## Cache
 |Lv.|タイトル|動画URL|備考|
