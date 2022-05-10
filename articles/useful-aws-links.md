@@ -153,7 +153,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS ソリューションプロバイダー向け AWS Control Tower のベストプラクティス - AWS JAPAN APN ブログ](https://aws.amazon.com/jp/blogs/psa/aws-control-tower-best-practices-for-aws-solution-providers/)| -| ソリューションプロバイダープログラムのお客様が AWS Control Tower を導入から継続的な運用までのプロセスを機能させる方法。|
 |`200`| [AWS Control Towerの嬉しいポイントと注意ポイント - NRIネットコム Design and Tech Blog](https://tech.nri-net.com/entry/controltower-kms)| -| AWS Control Tower を実際に利用するときのポイント。|
 |`300`| [Architecture Overview - Customizations for AWS Control Tower](https://docs.aws.amazon.com/solutions/latest/customizations-for-aws-control-tower/architecture.html)| -| Control Tower のカスタマイズ方法の実装の一例についての紹介。[日本語の実装ガイド](https://aws.amazon.com/jp/solutions/implementations/customizations-for-aws-control-tower/)や[日本語のソリューション実装](https://controltower.aws-management.tools/ja/automation/cfct/)もある。|
-|`300`| [「AWS Control Tower をカスタマイズして使ってみよう」というテーマでお話ししました #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-cfcf/)|[`YouTube`](https://www.youtube.com/watch?v=j-7hN8te0Yo)| DynamoDB の基本から内部構造の詳細、デザインパターンなどの発展的な情報まで。| Control Tower でセットアップされないけれど初期設定に組み込みたいサービスのカスタマイズ方法の一例。|
+|`300`| [「AWS Control Tower をカスタマイズして使ってみよう」というテーマでお話ししました #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-cfcf/)|[`YouTube`](https://www.youtube.com/watch?v=j-7hN8te0Yo)| Control Tower でセットアップされないけれど初期設定に組み込みたいサービスのカスタマイズ方法の一例。|
 
 ## Direct Connect (DX)
 |Lv.|タイトル|動画URL|備考|
