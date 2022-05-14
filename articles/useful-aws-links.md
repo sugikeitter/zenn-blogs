@@ -428,6 +428,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Infrastructure as Code (IaC)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [Infrastructure as Code (IaC) 談義 2022 ~AWS Developer Live Show](https://www.slideshare.net/AmazonWebServicesJapan/infrastructure-as-code-iac-2022-251672484)| [`Youtube`](https://www.youtube.com/watch?v=ed35fEbpyIE)| IaC の必要性、課題、考慮すべき部分など。|
 |`200`| [Infrastructure as Codeに関する技術書籍を執筆しました - How elegant the tech world is...!](https://iselegant.hatenablog.com/entry/2021/06/19/231213)| -| CloudFormation, AWS CDK, Terraform, Pulumi のツールが簡潔にまとめらている書籍の紹介。|
 |`200`| [Terraform職人再入門2020 - Qiita](https://qiita.com/minamijoyo/items/3a7467f70d145ac03324)| -| Terraform v0.14.2 時点での基礎から。|
 |`300`| [Infrastructure as Codeのつらみの原因を探れ　恐怖症による負のサイクルを断ち切る“予測可能性” - ログミーTech](https://logmi.jp/tech/articles/324822)| -| IaC ツールのパターンを分けた考え方。|
