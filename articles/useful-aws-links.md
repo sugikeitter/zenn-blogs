@@ -89,6 +89,13 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |[AWS Stash](https://awsstash.com/)|公式ではないがAWS関連資料が高速に検索できるサイト。|
 | `site:d1.awsstatic.com`<br>`site:pages.awscloud.com`| Google 検索のキーワードに追加すると、AWS イベントの発表資料の PDF が多く検索結果にヒットするので便利。`site:d0.awsstatic.com`もあるけど少し古め？かも。両方のドメインをまとめて検索したい場合は`<検索ワード> site:pages.awscloud.com OR site:d1.awsstatic.com`で検索可能。|
 
+## 初めてアカウントを作る方へ
+|URL|備考|
+|---|---|
+|[AWS アカウント作成の流れ - AWS](https://aws.amazon.com/jp/register-flow/)| キャプチャ付きの AWS アカウント作成フロー。|
+|[AWSアカウントを作ったら最初にやるべきこと 〜2021年版〜 #devio2021  DevelopersIO](https://dev.classmethod.jp/articles/aws-1st-step-2021/)| |
+|[AWSアカウント作成時にやるべきこと - NRIネットコムBlog](https://tech.nri-net.com/entry/aws_first_security)| |
+
 # サービス別
 
 ## API Gateway
