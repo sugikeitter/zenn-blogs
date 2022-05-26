@@ -415,6 +415,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| [The Twelve-Factor App （日本語訳）](https://12factor.net/ja/)| -| 多種多様なSaaSアプリケーション開発現場での経験と観察をまとめた、ソフトウェア開発の方法論。|
 |`200`| [「The Twelve-Factor App」を15項目に見直した「Beyond the Twelve-Factor App」を読んだ - kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2020/03/09/084833)| -| クラウド化が進み技術的な変化も踏まえて「Beyond the Twelve-Factor App」がアップデートされた内容を簡潔にまとめたもの。|
+|`200`| [サイバーエージェントのフィーチャーフラグを活用した高速開発【CADC2022】 - Speaker Deck](https://speakerdeck.com/cyberagentdevelopers/saibaezientofalsehuitiyahuraguwohuo-yong-sitagao-su-kai-fa-cadc2022)| -| フィーチャーフラグとは何か、メリットデメリットが簡潔にまとめられている。|
 |`300`| [Boto3(AWS SDK for Python)をコードリーディングして仕組みを理解する](https://zenn.dev/sugikeitter/articles/6648845968cec6)| -| Boto3 のクライアント API とリソース API の実装の違い、boto3 の役割と botocore の役割の違いなど。|
 
 
