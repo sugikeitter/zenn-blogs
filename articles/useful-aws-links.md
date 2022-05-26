@@ -418,7 +418,6 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [サイバーエージェントのフィーチャーフラグを活用した高速開発【CADC2022】 - Speaker Deck](https://speakerdeck.com/cyberagentdevelopers/saibaezientofalsehuitiyahuraguwohuo-yong-sitagao-su-kai-fa-cadc2022)| -| フィーチャーフラグとは何か、メリットデメリットが簡潔にまとめられている。|
 |`300`| [Boto3(AWS SDK for Python)をコードリーディングして仕組みを理解する](https://zenn.dev/sugikeitter/articles/6648845968cec6)| -| Boto3 のクライアント API とリソース API の実装の違い、boto3 の役割と botocore の役割の違いなど。|
 
-
 ## DevOps
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
@@ -428,6 +427,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`100`| [「コード書きました、あとはよろしく」では優れたソフトウェアは生まれない　コンテナのスペシャリストが語る、運用性を損なう8つの実装例 - ログミーTech](https://logmi.jp/tech/articles/325995)| -| Amazon AWS の CTO である Werner Vogels の「You build it, you run it」という言葉を、この言葉が使われた前後の文章を含めて「開発と運用の両者が共通のゴールを持って、共同して、運用上の責任を持つことがとても大事だ」と解説している。|
 |`100`| [マイクロサービスの失敗は技術だけの問題か――Amazonに学ぶ開発・運用組織の理想形とは (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/15284)| -| マイクロサービスを採用しても、適切な権限委譲ができておらず、それぞれのチームが全ての工程に責任を持っている状態でなければうまくいかない場合もあるという話（p.2）など、マイクロサービス はあくまで手段であることが簡潔に語られている。|
 |`200`| [Amazon S3を開発・運用する方法 - 巨大なマイクロサービスと組織 - AWS Summit Online 2020](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-33_AWS_Summit_Online_2020_STG01.pdf)| [`AWS`](https://resources.awscloud.com/vidyard-all-players/aws-33-aws-summit-online-2020-720p-2)| S3 の開発チームの DevOps の手法や、そのための組織構成など。|
+|`200`| [CIOpsとGitOpsの話 - inductor's blog](https://blog.inductor.me/entry/2021/09/24/015402)| -| 「CIOpsとGitOpsの一番の違いは、Push型かPull型か」であり、それぞれのメリットデメリットがまとめられている。|
 
 ## DevSecOps
 |Lv.|タイトル|動画URL|備考|
