@@ -109,6 +109,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| AWS App Runner とは？ - AWS Expert Online for JAWS-UG #16| [`YouTube`](https://www.youtube.com/watch?v=--o2HwfnFiY)| App Runner の使い方とメリットを、デモを通して紹介。|
 
+## CDK
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [AWS CDKでクラウドアプリケーションを開発するためのベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/best-practices-for-developing-cloud-applications-with-aws-cdk/)| -| |
+
 ## Client VPN
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
