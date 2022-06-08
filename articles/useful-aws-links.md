@@ -459,6 +459,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Microservices (マイクロサービス)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [これなら分かる！ マイクロサービス（入門編）～モノリスと比較した特徴、利点と課題 (1/3)：CodeZine（コードジン）](https://codezine.jp/article/detail/11055)| -| マイクロサービスの特徴が簡潔にまとまっている。（ユーザー登録必要）|
 |`100`| [ASCII.jp：なぜAmazonはマイクロサービスに舵を切ったのか？](https://ascii.jp/elem/000/001/620/1620756/)| -| Amazon.com のシステムがモノリシックアーキテクチャのアンチパターンにハマってしまい、ビジネスの急成長にシステムのスケールや機能追加が追いつかなり、マイクロサービスに大きく方向転換した背景について。また、すべてのチームが担当するサービスのすべての所有権、説明責任、より良くしようとする動機を持つべきという姿勢がすべてのエンジニアに浸透し、Amazon.com の機能はマイクロサービス化できたとのこと。最後に AWS の歴史の話もちょこっと記載されている。|
 |`200`| [スタートアップのためのマイクロサービス入門 - AWS Startup ブログ](https://aws.amazon.com/jp/blogs/startup/techblog-microservices-introduction/)| -| マイクロサービスとは何か？必要かどうかについての考え方についてなど。`「マイクロサービス」という言葉の功罪` という章以降を一読するのがおすすめ。|
 
