@@ -530,6 +530,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Storage
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [5分で絶対に分かるオブジェクトストレージ：5分で絶対に分かる（3/5 ページ） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1705/29/news014_3.html)| -| オブジェクトストレージとファイルストレージの違いを「場所を自分で把握する必要があるかどうか」という観点で、駐車場の例で説明している。|
 |`100`| [ストレージの勉強方法を聞いてみた。 - 変化を求めるデベロッパーを応援するウェブマガジン](https://aws.amazon.com/jp/builders-flash/202110/way-to-learn-storage/)| -| おすすめの資料や書籍なども。|
 |`200`| [Comparing your on-premises storage patterns with AWS Storage services - AWS Storage Blog (English)](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)| -| オンプレミスのストレージの考え方と、 AWS でのストレージの考え方。|
 |`200`| AWS Storage - EBS vs S3 vs EFS| [`YouTube`](https://www.youtube.com/watch?v=6vNC_BCqFmI)| [ここから](https://youtu.be/6vNC_BCqFmI?t=238) EBS, S3, EFS の違いがわかりやすく解説されている。|
