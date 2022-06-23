@@ -299,7 +299,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Snowball
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWS Snowball Edge を使ってみた！ 全工程レポート | ⬢ Appirits spirits](https://spirits.appirits.com/type/technology/14856/)| -| 注文から返送までの流れ、機材の詳細なレポートなど。|
+|`200`| [AWS Snowball Edge を使ってみた！ 全工程レポート - ⬢ Appirits spirits](https://spirits.appirits.com/type/technology/14856/)| -| 注文から返送までの流れ、機材の詳細なレポートなど。|
 |`---`| [AWS 導入事例：KDDI株式会社 - AWS](https://aws.amazon.com/jp/solutions/case-studies/kddi_2022/)| -| 252台の AWS Snowball Edge を活用して25PBの大容量データ移行を約2年で完遂した事例。|
 
 ## Snowmobile
