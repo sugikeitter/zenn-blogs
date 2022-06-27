@@ -30,7 +30,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|
 |[AWS (アマゾン ウェブ サービス) とは？](https://aws.amazon.com/jp/what-is-aws/)| AWS の紹介。よりメリットについて言及してた[AWS の クラウドが選ばれる 10 の理由](https://aws.amazon.com/jp/aws-ten-reasons/)のサイトもある。|
 |[AWS グローバルインフラストラクチャ](https://aws.amazon.com/jp/about-aws/global-infrastructure/)| AWS グローバルインフラストラクチャの最新情報やメリットなど。[AWS のデータセンターのページ](https://aws.amazon.com/jp/compliance/data-center/data-centers/)や、エッジロケーションの位置が記載された [CloudFront の特徴](https://aws.amazon.com/jp/cloudfront/features/)のページも用意されている。3分弱の動画である [AWS データセンターのセキュアな設計について - YouTube](https://www.youtube.com/watch?v=1-Bbe9_7J4o) もおすすめ。|
-|[サービスエンドポイントとクォータ - AWS 全般のリファレンス](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-service-information.html)| AWS サービスごとの API を利用する際の URL の一覧。 |
+|[サービスエンドポイントとクォータ - AWS 全般のリファレンス](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-service-information.html)| AWS サービスごとの API を利用する際の URL の一覧。 [サービス別の FIPS エンドポイント](https://aws.amazon.com/jp/compliance/fips/) の一覧もある。|
 |[AWS Well-Architected のポータルサイト](https://aws.amazon.com/jp/architecture/well-architected/)| AWS Well-Architected フレームワーク、レンズ、Tool などの情報がまとめられている。|
 |[What’s New at AWS (English)](https://aws.amazon.com/new/)| AWS の最新リリース情報が更新れている。[日本語版はこちら](https://aws.amazon.com/jp/new/)。|
 |[よくある質問](https://aws.amazon.com/jp/faqs/)| サービスごとによくある質問ページが用意されていて、利用する時に知りたい情報が多く書かれている |
