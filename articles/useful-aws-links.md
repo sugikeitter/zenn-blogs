@@ -250,6 +250,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS IAMの最小権限追求の旅 - プログラマでありたい](https://blog.takuros.net/entry/2020/07/06/081552)| -| IAMでのセキュリティのベストプラクティスを実際に行うための難しさや、SCP と Permission Boundary を利用する話。|
 |`200`| [AWS IAMの属人的な管理からの脱却【DeNA TechCon 2021】/techcon2021-19 - Speaker Deck](https://speakerdeck.com/dena_tech/techcon2021-19)| -| Permission Boundary によって解決できる問題がわかりやすく実例をもとにまとめられている。|
 
+## Kinesis
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [DevDay 2019 - KinesisとLambdaでつくる Serverlessなログ基盤](https://pages.awscloud.com/rs/112-TZM-766/images/C-2.pdf)| -| Kinesis Data Streams を利用して EC2 や ECS からログを送信するパターンがいくつかわかりやすい構成図と共に記載されている。|
+
 ## Lambda
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
