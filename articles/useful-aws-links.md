@@ -171,6 +171,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Direct Connect (DX)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [パートナー - AWS Direct Connect | AWS](https://aws.amazon.com/jp/directconnect/partners/)| -| DX ロケーションとパートナーの一覧。|
 |`300`| [AWS Direct Connect でのアクティブ/パッシブ BGP 接続の構築 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/creating-active-passive-bgp-connections-over-aws-direct-connect/)| -| 複数の DX 接続を利用して、経路制御やネットワークの最適化をする方法。|
 |`---`| [AWS導入事例 株式会社ゼンリンデータコム様 - TOKAIコミュニケーションズ AWSソリューション](https://www.cloudsolution.tokai-com.co.jp/case/zenrin-datacom.html)| -| お客様データセンター <-> DXロケーション <-> AWS のネットワークへの接続の具体的な図がわかりやすい。|
 
@@ -356,6 +357,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`---`| [グノシーにおける AWS Transit Gateway 活用事例 - Gunosy Tech Blog](https://tech.gunosy.io/entry/gunosy-aws-transit-gateway)| -| 複数のアカウントと VPC に Direct Connect を接続していたが、 Transit Gateway で設計がシンプルになって考慮する点やリードタイムが減った話。|
 |`---`| [AWS 導入事例：株式会社マネーフォワード - AWS](https://aws.amazon.com/jp/solutions/case-studies/moneyforward/)| -| マルチアカウント構成で Transit Gateway を活用しながら EKS クラスタと他のアカウントのリソースへ接続している。|
 |`---`| [AWS導入事例: SMK株式会社 AWS Transit Gateway Inter-Region Peeringを活用したグローバルネットワークHub](https://aws.amazon.com/jp/blogs/news/smk-corporation-aws-transit-gateway-inter-region-peering/)| -| AWS Transit Gateway Inter-Region Peering を活用し、AWSの閉域ネットワークを国内から海外拠点まで適用することで、構築時間やコストを削減。|
+
+## Trusted Advisor
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [AWS Trusted Advisor のベストプラクティスチェックリスト - AWS](https://aws.amazon.com/jp/premiumsupport/technology/trusted-advisor/best-practice-checklist/)| -| AWS Trusted Advisor は、コストの最適化、セキュリティ、耐障害性、パフォーマンス、サービスの制限といった AWS のベストプラクティスに基づく 5 つのカテゴリにわたるチェックと推奨事項。|
 
 ## VPC endpoints (VPCe) / PrivateLink
 |Lv.|タイトル|動画URL|備考|
