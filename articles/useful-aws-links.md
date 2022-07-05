@@ -361,7 +361,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Trusted Advisor
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [AWS Trusted Advisor のベストプラクティスチェックリスト - AWS](https://aws.amazon.com/jp/premiumsupport/technology/trusted-advisor/best-practice-checklist/)| -| AWS Trusted Advisor は、コストの最適化、セキュリティ、耐障害性、パフォーマンス、サービスの制限といった AWS のベストプラクティスに基づく 5 つのカテゴリにわたるチェックと推奨事項。|
+|`100`| [AWS Trusted Advisor のベストプラクティスチェックリスト - AWS](https://aws.amazon.com/jp/premiumsupport/technology/trusted-advisor/best-practice-checklist/)| -| コストの最適化、セキュリティ、耐障害性、パフォーマンス、サービスの制限といった AWS のベストプラクティスに基づく 5 つのカテゴリにわたるチェックと推奨事項。|
 
 ## VPC endpoints (VPCe) / PrivateLink
 |Lv.|タイトル|動画URL|備考|
