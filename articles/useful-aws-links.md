@@ -293,6 +293,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## S3
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [Amazon S3 セキュリティベストプラクティスの実践（権限管理のポリシー) – 前編 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/introducing-s3-security-best-practices-1/)| -| アイデンティティベースのポリシー、リソースベースのポリシー、VPC エンドポイントポリシー、サービスコントロールポリシーをそれぞれ異なる目的のために使い分ける方法など。[後編](https://aws.amazon.com/jp/blogs/news/introducing-s3-security-best-practices-2/) もある。|
 |`300`| [S3のコストを大幅に削減した話 - Gunosy Tech Blog](https://tech.gunosy.io/entry/s3_costcut)| -| gzip の特徴を活かして、複数の gzip ファイルを MultipartUpload で 単一の gzip ファイルにすることで、ストレージクラス変更時の Glacier への PUT リクエストの回数を減らし、コスト削減させた。|
 |`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
 |`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
