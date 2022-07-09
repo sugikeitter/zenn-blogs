@@ -160,6 +160,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [AWS再入門ブログリレー Amazon Cognito編 - DevelopersIO](https://dev.classmethod.jp/articles/re-introduction-2020-amazon-cognito/)| -| ユーザープール、ID プールの利用パターンが解説されている。|
 |`200`| [Cognitoのサインイン時に取得できる、IDトークン・アクセストークン・更新トークンを理解する - DevelopersIO](https://dev.classmethod.jp/articles/study-tokens-of-cognito-user-pools/)| -| Cognito で利用するトークンの解説。|
 
+## Config
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [AWS Config ベストプラクティス - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/aws-config-best-practices/)| -| Config を利用する場合に確認しておきたい20の項目。「1 つのリージョンでのみグローバルリソース (IAM リソースなど) を記録」など。|
+
 ## Control Tower
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
