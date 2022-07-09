@@ -299,6 +299,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`400`| [Diving Deep on S3 Consistency (English)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html)| -| S3で整合性を保つための仕組みを解説。|
 |`---`| [AWS 導入事例：株式会社テレビ東京](https://aws.amazon.com/jp/solutions/case-studies/tv-tokyo/)| -| 13PB のテレビ映像アーカイブを Amazon S3 / S3 Glacier へ移行。|
 
+## SCT
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| 第十九回 ちょっぴりDD - イチから覚える AWS Schema Conversion Tool | [YouTube](https://www.youtube.com/watch?v=JHrqArrH3AE)| SCT の基本的な使い方を動画で解説。|
+
 ## Site-to-Site VPN (サイト間 VPN)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
