@@ -302,7 +302,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## SCT
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| 第十九回 ちょっぴりDD - イチから覚える AWS Schema Conversion Tool | [YouTube](https://www.youtube.com/watch?v=JHrqArrH3AE)| SCT の基本的な使い方を動画で解説。|
+|`200`| 第十九回 ちょっぴりDD - イチから覚える AWS Schema Conversion Tool | [`YouTube`](https://www.youtube.com/watch?v=JHrqArrH3AE)| SCT の基本的な使い方を動画で解説。|
 
 ## Site-to-Site VPN (サイト間 VPN)
 |Lv.|タイトル|動画URL|備考|
