@@ -531,22 +531,46 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [顧客拠点から Amazon VPCへの接続パターンまとめ (Whitepaper参照） - DevelopersIO](https://dev.classmethod.jp/articles/whitepaper-translate-jpn-vpc-connectivity-options-01/)| -| VGW, Direct Connect, Transit Gateway の利用パターンがまとまっている。|
 
 ## Security
+
+### General - Security
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [AWS セキュリティドキュメント](https://docs.aws.amazon.com/ja_jp/security/)| -| AWS の各サービスのセキュリティに関する専用の章へのリンク一覧|
+|`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
+
+### Application - Security
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [AWS における安全な Web アプリケーションの作り方 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-55_AWS_Summit_Online_2021_Developing-Secure-Web-Applications-on-AWS.pdf)| [`Youtube`](https://youtu.be/TxBg7FWMAUA)| IPA の「安全なウェブサイトの作り⽅」や OWASP Top 10 に沿った考え方が記載されている。|
+|`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
+
+### Audit & Compliance - Security
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
 |`100`| [アマゾンウェブサービス: リスクとコンプライアンス - AWS Whitepaper](https://d1.awsstatic.com/whitepapers/compliance/JP_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_JP.pdf)| -| AWS のお客様が IT 環境をサポートする既存の統制フレームワークに AWS を統合する際に役立つ情報を提供するドキュメント。AWS 統制の評価に関する基本的なアプローチについて説明し、統制環境の統合の際に役立つ情報を提供したり、クラウドコンピューティングのコンプライアンスに関する一般的な質問について、AWS 固有の情報を掲載している。|
 |`100`| [AWS セキュリティ監査のガイドライン - AWS 全般のリファレンス](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-security-audit-guide.html)| -| 基本的なことではあるが、監査を実践するためのガイドラインが羅列されている。|
-|`100`| [セキュリティツールの評価は難しい - knqyf263's blog](https://knqyf263.hatenablog.com/entry/2022/03/15/064819)| -| AWS 関係なく、セキュリティツールを利用するにあたって、検知数が多い少ないで良し悪しを判断しがちになってしまうという話。|
+
+### AWS Account - Security
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [(私のように)セキュリティを何から始めれば良いか分からない開発者の方へ - AWS Builders Online Series 2022](https://pages.awscloud.com/rs/112-TZM-766/images/BOS32_AWS-Builders-Online-Series_2022-Q1_Presentation-Deck.pdf)| [AWS](https://resources.awscloud.com/aws-builders-online-series-japanese/bos32)| クラウドとそのサービスが提供する機能を活用して、セキュリティも自動化しながら、前向きに向き合っていくためのヒントなど。|
 |`200`| [AWS アカウントを守るためにおさえておきたいセキュリティ対策 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-52_AWS_Summit_Online_2021_Security_measures_you_should_keep_in_mind_to_protect_your_AWS_account.pdf) | [`Youtube`](https://youtu.be/nxfMzXTaCVw) | AWS Well-Architected フレームワーク セキュリティの柱に沿った AWS アカウントを守るために実施すべきセキュリティ対策。|
+|`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| 初動対応の調査や、社内の対応体制と外部連携についてなど。|
+|`300`| [AWS環境にセキュアなベースラインを提供するテンプレート「Baseline Environment on AWS」のご紹介 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-baseline-environment-on-aws/)| -| AWS Japanのソリューションアーキテクトが AWS Samples に公開している BLEA についての紹介。Control Tower によるマルチアカウント環境でも同じように利用可能。|
+
+### Network - Security
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
 |`200`| [AWS におけるネットワーク＆アプリケーション保護のすすめ - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-38_AWS_Summit_Online_2021_SEC02.pdf) | [`Youtube`](https://youtu.be/PSTjZ_g-bNo)| AWS Network Firewall, AWS WAF,AWS Shield Advanced を利用した境界防御のパターンが一般的な構成、サーバーレス、遅延にセンシティブな場合、オンプレの組み合わせなど紹介されている。|
 |`200`| [AWS 環境における脅威検知と対応 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-39_AWS_Summit_Online_2021_SEC03.pdf)| [`Youtube`](https://youtu.be/VWp6OAxPbRc)| Amazon GuardDuty、AWS Security Hub、Amazon Detective による脅威を検知、監視、調査について。|
-|`200`| [AWS における安全な Web アプリケーションの作り方 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-55_AWS_Summit_Online_2021_Developing-Secure-Web-Applications-on-AWS.pdf)| [`Youtube`](https://youtu.be/TxBg7FWMAUA)| IPA の「安全なウェブサイトの作り⽅」や OWASP Top 10 に沿った考え方が記載されている。|
-|`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| 初動対応の調査や、社内の対応体制と外部連携についてなど。|
-|`200`| [(私のように)セキュリティを何から始めれば良いか分からない開発者の方へ - AWS Builders Online Series 2022](https://pages.awscloud.com/rs/112-TZM-766/images/BOS32_AWS-Builders-Online-Series_2022-Q1_Presentation-Deck.pdf)| [AWS](https://resources.awscloud.com/aws-builders-online-series-japanese/bos32)| クラウドとそのサービスが提供する機能を活用して、セキュリティも自動化しながら、前向きに向き合っていくためのヒントなど。|
-|`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
-|`300`| [AWS環境にセキュアなベースラインを提供するテンプレート「Baseline Environment on AWS」のご紹介 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-baseline-environment-on-aws/)| -| AWS Japanのソリューションアーキテクトが AWS Samples に公開している BLEA についての紹介。Control Tower によるマルチアカウント環境でも同じように利用可能。|
-|`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
 |`300`| [DDoS に対する AWS のベストプラクティス（英語）](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)| -| DDoS 攻撃に対する回復力のあるアプリケーションを構築するための規範的な DDoS ガイダンス。ボリューム型攻撃やアプリケーション層に対する攻撃など、さまざまな攻撃タイプの紹介と各攻撃タイプを管理する上で最も効果的なベストプラクティスの説明。DDoS 緩和戦略に適合するサービスや機能および、それぞれがどのようにアプリケーションを保護するのに役立つのかについての要点など。|
+|`300`| [インターネットからのイングレストラフィックフローのためのファイアウォールのデプロイ設計 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/design-your-firewall-deployment-for-internet-ingress-traffic-flows/)| -| AWS WAF, AWS Network Firewall, Gateway Load Balance, ELB Sandwich(ELB + サードパーティアプライアンスの EC2) それぞれのアーキテクチャ図と特徴の一覧表によるまとめ。|
+
+### Vulnerabilities - Security
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`100`| [セキュリティツールの評価は難しい - knqyf263's blog](https://knqyf263.hatenablog.com/entry/2022/03/15/064819)| -| AWS 関係なく、セキュリティツールを利用するにあたって、検知数が多い少ないで良し悪しを判断しがちになってしまうという話。|
+
 
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
