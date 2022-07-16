@@ -276,7 +276,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Network Firewall
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [AWS Network Firewallのデプロイモデル - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-deployment-models-for-aws-network-firewall/)| -| 分散型：個々のVPCにデプロイするモデル、集約型：East-West（VPCからVPC）やNorth-South（インターネットやオンプレミスへの通信）のトラフィックを集約する検査用VPCにデプロイするモデル、複合型：分散型と集約型の組み合わせごとのサブネットとルートテーブルの設計図が図でまとめられている。|
+|`300`| [AWS Network Firewallのデプロイモデル - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-deployment-models-for-aws-network-firewall/)| -| 分散型：個々のVPCにデプロイするモデル、集約型：East-West（VPCからVPC）やNorth-South（インターネットやオンプレミスへの通信）のトラフィックを集約する検査用VPCにデプロイするモデル、複合型：分散型と集約型の組み合わせごとのサブネットとルートテーブルの設計図が図でまとめられている。|
 
 ## Outposts
 |Lv.|タイトル|動画URL|備考|
