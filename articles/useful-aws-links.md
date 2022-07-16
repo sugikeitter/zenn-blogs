@@ -564,7 +564,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ### Audit & Compliance - Security
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [責任共有モデルとは何か、を改めて考える | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/rethinksharedresponsibility/)| -| AWSがホストオペレーティングシステムと仮想化レイヤーから、サービスが運用されている施設の物理的なセキュリティに至るまでの要素をAWSが運用、管理、および制御することから、お客様の運用上の負担を軽減するために役立つ、責任共有モデルのモデルの考え方や実際のビジネスへの適用方法について理解のポイント。|
+|`100`| [責任共有モデルとは何か、を改めて考える - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/rethinksharedresponsibility/)| -| AWSがホストオペレーティングシステムと仮想化レイヤーから、サービスが運用されている施設の物理的なセキュリティに至るまでの要素をAWSが運用、管理、および制御することから、お客様の運用上の負担を軽減するために役立つ、責任共有モデルのモデルの考え方や実際のビジネスへの適用方法について理解のポイント。|
 |`100`| [アマゾンウェブサービス: リスクとコンプライアンス - AWS Whitepaper](https://d1.awsstatic.com/whitepapers/compliance/JP_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_JP.pdf)| -| AWS のお客様が IT 環境をサポートする既存の統制フレームワークに AWS を統合する際に役立つ情報を提供するドキュメント。AWS 統制の評価に関する基本的なアプローチについて説明し、統制環境の統合の際に役立つ情報を提供したり、クラウドコンピューティングのコンプライアンスに関する一般的な質問について、AWS 固有の情報を掲載している。|
 |`100`| [AWS セキュリティ監査のガイドライン - AWS 全般のリファレンス](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-security-audit-guide.html)| -| 基本的なことではあるが、監査を実践するためのガイドラインが羅列されている。|
 
