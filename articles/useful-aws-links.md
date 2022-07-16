@@ -554,6 +554,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`100`| [クラウドセキュリティ - AWS](https://aws.amazon.com/jp/security/?nc=sn&loc=0)| -| AWS クラウドセキュリティに関するトップページ。[責任共有モデル](https://aws.amazon.com/jp/compliance/shared-responsibility-model/)、[AWS におけるデータ保護](https://aws.amazon.com/jp/compliance/data-protection/)、[AWS でのデータプライバシー](https://aws.amazon.com/jp/compliance/data-privacy/)、[その他 AWS クラウドセキュリティに関するリソースの一覧](https://aws.amazon.com/jp/products/security/resources/) などへのポータルになっている。|
 |`100`| [AWS セキュリティドキュメント](https://docs.aws.amazon.com/ja_jp/security/)| -| AWS の各サービスのセキュリティに関する専用の章へのリンク一覧。|
 |`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
+|`200`| [脅威モデリングのアプローチ方法 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/how-to-approach-threat-modeling/)| -| 具体的な方法ではないが、モデリングを進める上での段取りや考え方がまとめられている。|
+|`200`| [【解説】NIST サイバーセキュリティフレームワークの実践的な使い方 - NRIセキュア](https://www.nri-secure.co.jp/blog/nist-cybersecurity-framework)| -| |
 
 ### Application - Security
 |Lv.|タイトル|動画URL|備考|
