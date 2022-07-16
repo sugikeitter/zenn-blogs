@@ -551,7 +551,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ### General - Security
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [AWS セキュリティドキュメント](https://docs.aws.amazon.com/ja_jp/security/)| -| AWS の各サービスのセキュリティに関する専用の章へのリンク一覧|
+|`100`| [クラウドセキュリティ - AWS](https://aws.amazon.com/jp/security/?nc=sn&loc=0)| -| AWS クラウドセキュリティに関するトップページ。[責任共有モデル](https://aws.amazon.com/jp/compliance/shared-responsibility-model/)、[AWS におけるデータ保護](https://aws.amazon.com/jp/compliance/data-protection/)、[AWS でのデータプライバシー](https://aws.amazon.com/jp/compliance/data-privacy/)、[その他 AWS クラウドセキュリティに関するリソースの一覧](https://aws.amazon.com/jp/products/security/resources/） などへのポータルになっている。|
+|`100`| [AWS セキュリティドキュメント](https://docs.aws.amazon.com/ja_jp/security/)| -| AWS の各サービスのセキュリティに関する専用の章へのリンク一覧。|
 |`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
 
 ### Application - Security
