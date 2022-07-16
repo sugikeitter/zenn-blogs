@@ -273,6 +273,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [大量リクエストを低コストでさばく AWS Lambda 関数を JVM で実現 - builders.flash☆](https://aws.amazon.com/jp/builders-flash/202110/jvm-lambda-function/?awsf.filter-name=*all)| -| Node.js, Python, Java での条件ごとのパフォーマンス比較や、GraalVM での native-image を利用する方法。|
 |`400`| [知らなくても困らないけど、知ると楽しいAWS Lambdaの裏側の世界 #devio2021 - DevelopersIO](https://dev.classmethod.jp/articles/devio2021-awslambda-under-the-food/)| -| 実行環境である Firecracker や Lambda 関数の同期/非同期実行時のソフトウェアコンポーネント、コンテナイメージサポートの話など。|
 
+## Network Firewall
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [AWS Network Firewallのデプロイモデル - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-deployment-models-for-aws-network-firewall/)| -| 分散型：個々のVPCにデプロイするモデル、集約型：East-West（VPCからVPC）やNorth-South（インターネットやオンプレミスへの通信）のトラフィックを集約する検査用VPCにデプロイするモデル、複合型：分散型と集約型の組み合わせごとのサブネットとルートテーブルの設計図が図でまとめられている。|
+
 ## Outposts
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
