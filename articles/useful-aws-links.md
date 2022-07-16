@@ -242,6 +242,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`300`| [Network Load BalancerのターゲットグループにApplication Load Balancerを設定する - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/application-load-balancer-aws-privatelink-static-ip-addresses-network-load-balancer/)| -| ALB に固定 IP を設定したい場合の NLB + ALB 構成とユースケースについて。|
 
+## GuardDuty
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`300`| [Enabling Amazon GuardDuty in AWS Control Tower using Delegated Administrator - AWS Cloud Operations & Migrations Blog (English)](https://aws.amazon.com/jp/blogs/mt/automating-amazon-guardduty-deployment-in-aws-control-tower/)| -| Organizations で管理するアカウントに GuardDuty の設定を適用するソリューションの紹介。Control Tower で作成される Audit Aアカウントを GuardDuty の管理者アカウントに委譲し、Log Archive アカウントの S3 バケットにログを集約させるための CloudFormation テンプレートが用意されている。|
+
 ## Organizations
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
