@@ -315,6 +315,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |---|---|---|---|
 |`200`| 第十九回 ちょっぴりDD - イチから覚える AWS Schema Conversion Tool | [`YouTube`](https://www.youtube.com/watch?v=JHrqArrH3AE)| SCT の基本的な使い方を動画で解説。|
 
+## Shield
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [AWS Shield Advanced のアップデート – アプリケーションレイヤー DDoS の自動緩和 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/)| -| 従来は Shield Advanced を利用することでベースラインからの著しい逸脱したリクエストは DDoS イベントとしてフラグが設定され、Amazon CloudWatch を通じてアラートがトリガーされるので、悪意のあるトラフィックを分離する AWS WAF ルールを手動で作成し、AWS WAF コンソールまたは API を介してデプロイし、ルールの有効性を評価する必要があった。このプロセスには DDoS 攻撃を緩和するまでに時間がかかってしまっていたが、AWS WAF ルールが自動的に作成、テスト、デプロイされ、お客様に代わってレイヤー 7 の DDoS イベントを緩和する機能が提供されたので、利用手順がまとめられている。|
+
 ## Site-to-Site VPN (サイト間 VPN)
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
