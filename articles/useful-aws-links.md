@@ -245,7 +245,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## GuardDuty
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`200`| [ぎりぎり 20 分で話しきる Amazon GuardDuty による脅威検知](https://pages.awscloud.com/rs/112-TZM-766/images/20220428_17th_ISV_DiveDeepSeminar_Guard_Duty.pdf)| [`Vidyard`](https://play.vidyard.com/JhTTR1GGHgstRkAg5ENhd2)| |[【開催報告】アップデート紹介とちょっぴり DiveDeep する AWS の時間 第十七回 (04/28) - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/update-divedeep-series-17/) のセッション。2022年4月時点の GuardDuty の最新情報込みで基本情報がまとめられている。|
+|`200`| [ぎりぎり 20 分で話しきる Amazon GuardDuty による脅威検知](https://pages.awscloud.com/rs/112-TZM-766/images/20220428_17th_ISV_DiveDeepSeminar_Guard_Duty.pdf)| [`Vidyard`](https://play.vidyard.com/JhTTR1GGHgstRkAg5ENhd2)| [【開催報告】アップデート紹介とちょっぴり DiveDeep する AWS の時間 第十七回 (04/28) - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/update-divedeep-series-17/) のセッション。2022年4月時点の GuardDuty の最新情報込みで基本情報がまとめられている。|
 |`300`| [Enabling Amazon GuardDuty in AWS Control Tower using Delegated Administrator - AWS Cloud Operations & Migrations Blog (English)](https://aws.amazon.com/jp/blogs/mt/automating-amazon-guardduty-deployment-in-aws-control-tower/)| -| Organizations で管理するアカウントに GuardDuty の設定を適用するソリューションの紹介。Control Tower で作成される Audit アカウントを GuardDuty の管理者アカウントに委譲し、Log Archive アカウントの S3 バケットにログを集約させるための CloudFormation テンプレートが用意されている。|
 
 ## IAM
@@ -319,7 +319,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Security Hub
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [新学期セキュリティスタートダッシュ Security Hub 編](https://pages.awscloud.com/rs/112-TZM-766/images/20220428_17th_ISV_DiveDeepSeminar_Security_Hub.pdf)| [`Vidyard`](https://play.vidyard.com/JhTTR1GGHgstRkAg5ENhd2)| |[【開催報告】アップデート紹介とちょっぴり DiveDeep する AWS の時間 第十七回 (04/28) - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/update-divedeep-series-17/) のセッション。Security Hub を導入するために知りたい内容を基本的な2022年4月時点の最新情報込みで。|
+|`100`| [新学期セキュリティスタートダッシュ Security Hub 編](https://pages.awscloud.com/rs/112-TZM-766/images/20220428_17th_ISV_DiveDeepSeminar_Security_Hub.pdf)| [`Vidyard`](https://play.vidyard.com/JhTTR1GGHgstRkAg5ENhd2)| [【開催報告】アップデート紹介とちょっぴり DiveDeep する AWS の時間 第十七回 (04/28) - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/update-divedeep-series-17/) のセッション。Security Hub を導入するために知りたい内容を基本的な2022年4月時点の最新情報込みで。|
 
 ## SCT
 |Lv.|タイトル|動画URL|備考|
