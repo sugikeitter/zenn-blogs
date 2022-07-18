@@ -577,6 +577,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`100`| [(私のように)セキュリティを何から始めれば良いか分からない開発者の方へ - AWS Builders Online Series 2022](https://pages.awscloud.com/rs/112-TZM-766/images/BOS32_AWS-Builders-Online-Series_2022-Q1_Presentation-Deck.pdf)| [AWS](https://resources.awscloud.com/aws-builders-online-series-japanese/bos32)| クラウドとそのサービスが提供する機能を活用して、セキュリティも自動化しながら、前向きに向き合っていくためのヒントなど。|
 |`200`| [AWS アカウントを守るためにおさえておきたいセキュリティ対策 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-52_AWS_Summit_Online_2021_Security_measures_you_should_keep_in_mind_to_protect_your_AWS_account.pdf) | [`Youtube`](https://youtu.be/nxfMzXTaCVw) | AWS Well-Architected フレームワーク セキュリティの柱に沿った AWS アカウントを守るために実施すべきセキュリティ対策。|
 |`200`| [AWSの異常課金で気付いた不正アクセス--インシデントにどう対応したのか - ZDNet Japan](https://japan.zdnet.com/article/35133681/)| -| 初動対応の調査や、社内の対応体制と外部連携についてなど。|
+|`300`| [AWS セキュリティリファレンスアーキテクチャ (AWS SRA) - AWS 規範的ガイダンス](https://docs.aws.amazon.com/ja_jp/prescriptive-guidance/latest/security-reference-architecture/welcome.html)| -| マルチアカウント環境において AWS セキュリティサービスの完全補完をデプロイするための包括的なガイドラインセット。AWS セキュリティサービスを AWS ベストプラクティスに沿うように設計、実装、および管理するために利用するためのドキュメント。|
 |`300`| [AWS環境にセキュアなベースラインを提供するテンプレート「Baseline Environment on AWS」のご紹介 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-baseline-environment-on-aws/)| -| AWS Japanのソリューションアーキテクトが AWS Samples に公開している BLEA についての紹介。CDK をベースにした AWS のセキュリティのベストプラクティスを実装した環境を、迅速に実現するためのテンプレート。単一のアカウントでも、また AWS Control Tower によるマルチアカウント環境でも同じように利用可能。|
 
 ### Network - Security
