@@ -62,6 +62,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |[AWS クイックスタート](https://aws.amazon.com/jp/quickstart/)| AWS クラウドでの自動化された、標準的なデプロイメントの設計図や CloudFormation テンプレートなど。|
 |[AWS ソリューションライブラリ](https://aws.amazon.com/jp/solutions/)| AWS クラウド用の検証済みテクノロジーソリューションの設計図や CloudFormation テンプレートなど。クイックスタートの情報と重複しているものもある。|
 |[The Amazon Builders' Library](https://aws.amazon.com/jp/builders-library/)| Amazon がテクノロジーを開発、設計、リリース、運用する方法を説明する記事のコレクション。|
+|[AWS Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/)| クラウドの移行、モダナイゼーション、プロジェクトの最適化を促進するのに役立つ、実績のある戦略やガイド、パターンを提供する規範的ガイダンス。|
 
 ## AWS 関連の GitHub リポジトリ
 |URL|備考|
