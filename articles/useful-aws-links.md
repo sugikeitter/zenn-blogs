@@ -253,7 +253,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| IAM ポリシーに記載できる Action, Resource, Condition の一覧。Action 名に対応する API も辿れる。|
-|`100`| [[AWS利用者必読] アクセスキー漏洩による不正利用について - DevelopersIO](https://dev.classmethod.jp/articles/unauthorized-use-of-aws-access-keys-due-to-leakage/)| -| アクセスキー利用の注意点について。|
+|`200`| [IAM JSON ポリシー要素のリファレンス - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements.html)| -| ポリシー要素の Statement や Principal, Condition などにどのような値を記載できるかのドキュメント。|
+|`200`| [[AWS利用者必読] アクセスキー漏洩による不正利用について - DevelopersIO](https://dev.classmethod.jp/articles/unauthorized-use-of-aws-access-keys-due-to-leakage/)| -| アクセスキー利用の注意点について。|
 |`200`| [【実録】アクセスキー流出、攻撃者のとった行動とその対策 - DevelopersIO](https://dev.classmethod.jp/articles/accesskey-leak/)| -| アクセスキーを利用してどのように不正な操作がされたかの経験談とその対策。|
 |`200`| [AWS IAMの最小権限追求の旅 - プログラマでありたい](https://blog.takuros.net/entry/2020/07/06/081552)| -| IAMでのセキュリティのベストプラクティスを実際に行うための難しさや、SCP と Permission Boundary を利用する話。|
 |`200`| [AWS IAMの属人的な管理からの脱却【DeNA TechCon 2021】/techcon2021-19 - Speaker Deck](https://speakerdeck.com/dena_tech/techcon2021-19)| -| Permission Boundary によって解決できる問題がわかりやすく実例をもとにまとめられている。|
@@ -277,12 +278,14 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Network Firewall
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [AWS Network Firewall 応⽤編1 - 新機能 MSRの活⽤/トラフィックを集約して監査する](https://d1.awsstatic.com/webinars/jp/pdf/services/202110_AWS_Black_Belt_Network_Firewall_advanced01.pdf)| -| [2021/08/30 に VPC ルートテーブルの新機能](https://aws.amazon.com/jp/blogs/news/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/)で、デフォルトのローカルルート（VPC 全体の CIDR 範囲）よりも小さな CIDR 範囲を指定してターゲットを詳細に指定できるようになった。これ以降、Network Firewall のサブネット設計の選択肢が増えてインターネット GW の内側の最初に Network Firewall エンドポイントのサブネットを配置しなくて良くなった。2021/08/30 以前に作成されたドキュメントの Network Firewall のサブネット設計を見る場合は注意。こちらの資料に書かれている構成から検討した方が良い。|
 |`200`| [[アップデート] AWS Network Firewall でAWSが提供するマネージドのSuricata互換のIPSルール「AWS Managed Threat Signatures」が使えるようになりました - DevelopersIO](https://dev.classmethod.jp/articles/aws-network-firewall-threat-signatures/)| -| マルウェア、ボットネット、ウェブ攻撃、新興イベントなど、脅威を防御する侵入検知と防止のシグネチャーに、ステートフルのマネージドルールを活用できる。SNS を通じて、マネージドルールグループ更新の通知も可能。|
 |`300`| [AWS Network Firewallのデプロイモデル - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-deployment-models-for-aws-network-firewall/)| -| 分散型：個々のVPCにデプロイするモデル、集約型：East-West（VPCからVPC）やNorth-South（インターネットやオンプレミスへの通信）のトラフィックを集約する検査用VPCにデプロイするモデル、複合型：分散型と集約型の組み合わせごとのサブネットとルートテーブルの設計図が図でまとめられている。|
 
 ## Organizations
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`100`| [AWS Organizations で使用できる AWS のサービス - AWS Organizations](https://docs.aws.amazon.com/ja_jp/organizations/latest/userguide/orgs_integrate_services_list.html)| -| Organizations で使用できるサービスごとに、信頼されたアクセス/別アカウントを委任管理者にする機能がサポートされているかどうかの一覧。|
 |`200`| [Organizing Your AWS Environment Using Multiple Accounts - Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)| -| Organizations の OU の分け方などの推奨方法などがまとめられているホワイトペーパー。|
 |`200`| [[AWS Organizations] SCP(サービスコントロールポリシー)の継承の仕組みを学ぼう - DevelopersIO](https://dev.classmethod.jp/articles/organizations-scp-inheritance/)| -| SCP の継承の考え方や、暗黙の Deny の概念が図でわかりやすい。|
 
