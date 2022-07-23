@@ -252,8 +252,9 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## IAM
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| サービスごとの IAM ポリシーに記載できる Action, Resource, Condition の一覧。IAM ポリシーに記載する Action 名と API 名が異なることがあるが、このドキュメントで Action 名から API 名が辿れる。|
+|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| サービスごとの IAM ポリシーに記載できる Action, Resource, Condition の一覧ドキュメント。IAM ポリシーに記載する Action 名と API 名が異なることがあるが、このドキュメントで Action 名から API 名が辿れる。|
 |`200`| [IAM JSON ポリシー要素のリファレンス - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements.html)| -| ポリシー要素の Statement や Principal, Condition などにどのような値を記載できるかのドキュメント。|
+|`200`| [ポリシーの評価論理 - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)| -| AWS のサービスがリクエストを受け取って許可か拒否を決定するためのフローチャートが載っているドキュメント。|
 |`200`| [[AWS利用者必読] アクセスキー漏洩による不正利用について - DevelopersIO](https://dev.classmethod.jp/articles/unauthorized-use-of-aws-access-keys-due-to-leakage/)| -| アクセスキー利用の注意点について。|
 |`200`| [【実録】アクセスキー流出、攻撃者のとった行動とその対策 - DevelopersIO](https://dev.classmethod.jp/articles/accesskey-leak/)| -| アクセスキーを利用してどのように不正な操作がされたかの経験談とその対策。|
 |`200`| [AWS IAMの最小権限追求の旅 - プログラマでありたい](https://blog.takuros.net/entry/2020/07/06/081552)| -| IAMでのセキュリティのベストプラクティスを実際に行うための難しさや、SCP と Permission Boundary を利用する話。|
