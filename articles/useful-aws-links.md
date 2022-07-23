@@ -277,6 +277,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## Network Firewall
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
+|`200`| [[アップデート] AWS Network Firewall でAWSが提供するマネージドのSuricata互換のIPSルール「AWS Managed Threat Signatures」が使えるようになりました - DevelopersIO](https://dev.classmethod.jp/articles/aws-network-firewall-threat-signatures/)| -| マルウェア、ボットネット、ウェブ攻撃、新興イベントなど、脅威を防御する侵入検知と防止のシグネチャーに、ステートフルのマネージドルールを活用できる。SNS を通じて、マネージドルールグループ更新の通知も可能。|
 |`300`| [AWS Network Firewallのデプロイモデル - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-deployment-models-for-aws-network-firewall/)| -| 分散型：個々のVPCにデプロイするモデル、集約型：East-West（VPCからVPC）やNorth-South（インターネットやオンプレミスへの通信）のトラフィックを集約する検査用VPCにデプロイするモデル、複合型：分散型と集約型の組み合わせごとのサブネットとルートテーブルの設計図が図でまとめられている。|
 
 ## Organizations
