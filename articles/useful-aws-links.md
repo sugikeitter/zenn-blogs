@@ -601,7 +601,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`100`| [セキュリティツールの評価は難しい - knqyf263's blog](https://knqyf263.hatenablog.com/entry/2022/03/15/064819)| -| AWS 関係なく、セキュリティツールを利用するにあたって、検知数が多い少ないで良し悪しを判断しがちになってしまうという話。|
-
+|`100`| [脆弱性ハンドリングと耐える設計 -Vulnerability Response-](https://www.slideshare.net/nakatomoorg/vulnerability-response)| -| 脆弱性情報を収集、トリアージ（取捨選択）、対処し、攻撃の被害から防ぐための基礎的な内容。|
 
 ## Serverless (サーバーレス)
 |Lv.|タイトル|動画URL|備考|
