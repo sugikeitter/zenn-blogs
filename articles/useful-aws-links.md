@@ -253,7 +253,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## IAM
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| サービスごとの IAM ポリシーに記載できる Action, Resource, Condition の一覧ドキュメント。IAM ポリシーに記載する Action 名と API 名が異なることがあるが、このドキュメントで Action 名から API 名が辿れる。|
+|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| IAM ポリシーに記載する Action, Resource, Condition の要素の中に、各サービスごとで何を記載できるか一覧になっているドキュメント。IAM ポリシーの Action 名とサービスごとの API 名が異なることがあるが、このドキュメントで Action 名から API 名も辿れる。|
 |`200`| [IAM JSON ポリシー要素のリファレンス - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements.html)| -| ポリシー要素の Statement や Principal, Condition などにどのような値を記載できるかのドキュメント。|
 |`200`| [ポリシーの評価論理 - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)| -| AWS のサービスがリクエストを受け取って許可か拒否を決定するためのフローチャートが載っているドキュメント。|
 |`200`| [[AWS利用者必読] アクセスキー漏洩による不正利用について - DevelopersIO](https://dev.classmethod.jp/articles/unauthorized-use-of-aws-access-keys-due-to-leakage/)| -| アクセスキー利用の注意点について。|
