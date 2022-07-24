@@ -253,8 +253,8 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 ## IAM
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
-|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| IAM ポリシーに記載する Action, Resource, Condition の要素の中に、各サービスごとで何を記載できるか一覧になっているドキュメント。IAM ポリシーの Action 名とサービスごとの API 名が異なることがあるが、このドキュメントで Action 名から API 名も辿れる。|
-|`200`| [IAM JSON ポリシー要素のリファレンス - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements.html)| -| ポリシー要素の Statement や Principal, Condition などにどのような値を記載できるかのドキュメント。|
+|`100`| [AWS のサービスのアクション、リソース、および条件キー - サービス認証リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html)| -| IAM ポリシーに記載する Action, Resource, Condition の要素の中に、各サービスごとで具体的に何を記載できるか一覧になっているドキュメント。IAM ポリシーの Action 名とサービスごとの API 名が異なることがあるが、このドキュメントで Action 名から API 名も辿れる。|
+|`200`| [IAM JSON ポリシー要素のリファレンス - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements.html)| -| ポリシーに記載できる Statement や Principal, Condition などの要素一覧と、それぞれの要素がどのような構文で記載するかがわかるドキュメント。|
 |`200`| [ポリシーの評価論理 - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)| -| AWS のサービスがリクエストを受け取って許可か拒否を決定するためのフローチャートが載っているドキュメント。|
 |`200`| [[AWS利用者必読] アクセスキー漏洩による不正利用について - DevelopersIO](https://dev.classmethod.jp/articles/unauthorized-use-of-aws-access-keys-due-to-leakage/)| -| アクセスキー利用の注意点について。|
 |`200`| [【実録】アクセスキー流出、攻撃者のとった行動とその対策 - DevelopersIO](https://dev.classmethod.jp/articles/accesskey-leak/)| -| アクセスキーを利用してどのように不正な操作がされたかの経験談とその対策。|
