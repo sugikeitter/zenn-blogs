@@ -260,6 +260,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`200`| [【実録】アクセスキー流出、攻撃者のとった行動とその対策 - DevelopersIO](https://dev.classmethod.jp/articles/accesskey-leak/)| -| アクセスキーを利用してどのように不正な操作がされたかの経験談とその対策。|
 |`200`| [AWS IAMの最小権限追求の旅 - プログラマでありたい](https://blog.takuros.net/entry/2020/07/06/081552)| -| IAMでのセキュリティのベストプラクティスを実際に行うための難しさや、SCP と Permission Boundary を利用する話。|
 |`200`| [AWS IAMの属人的な管理からの脱却【DeNA TechCon 2021】/techcon2021-19 - Speaker Deck](https://speakerdeck.com/dena_tech/techcon2021-19)| -| Permission Boundary によって解決できる問題がわかりやすく実例をもとにまとめられている。|
+|`300`| [Principal 要素で IAM ロールを指定するのと IAM ロールを引き受けたセッションを指定するのは何が違うのか？ 72 個のパターンで考えてみた - DevelopersIO](https://dev.classmethod.jp/articles/principal-element-iam-role-or-role-session/)| -| リソースベースポリシーの Principal 要素で `{ "AWS": "arn:aws:iam::AWS-account-ID:role/role-name" }` と `{ "AWS": "arn:aws:sts::AWS-account-ID:assumed-role/role-name/role-session-name" }` を指定した場合の違いがまとめられている。|
 
 ## Kinesis
 |Lv.|タイトル|動画URL|備考|
