@@ -569,7 +569,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`100`| [AWS セキュリティドキュメント](https://docs.aws.amazon.com/ja_jp/security/)| -| AWS の各サービスのセキュリティに関する専用の章へのリンク一覧。|
 |`200`| [ゼロトラストアーキテクチャ: AWS の視点 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/zero-trust-architectures-an-aws-perspective/)| -| ゼロトラストの定義と指針など。|
 |`200`| [脅威モデリングのアプローチ方法 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/how-to-approach-threat-modeling/)| -| 具体的な方法ではないが、モデリングを進める上での段取りや考え方がまとめられている。|
-|`200`| [【解説】NIST サイバーセキュリティフレームワークの実践的な使い方 - NRIセキュア](https://www.nri-secure.co.jp/blog/nist-cybersecurity-framework)| -| |
+|`200`| [NIST サイバーセキュリティ フレームワーク (CSF) - AWS クラウドにおける NIST CSF への準拠](https://d1.awsstatic.com/whitepapers/compliance/JP_Whitepapers/NIST_Cybersecurity_Framework_CSF_JP.pdf)| -| 2014年2月に米国国立標準研究所（NIST）が 1.0 版を公開した CSF（サイバーセキュリティフレームワーク）はサイバーセキュリティの推奨ベースラインとなっており、NIST CSF の評価と、NIST CSF への準拠によるサイバーセキュリティ体制の改善に向けて公的部門および商業部門のお客様が使用できるさまざまな AWS クラウドサービスの評価を行うホワイトペーパー。NIST CSF については [IPA が出している翻訳](https://www.ipa.go.jp/files/000071204.pdf) はあるが、[【解説】NIST サイバーセキュリティフレームワークの実践的な使い方 - NRIセキュア](https://www.nri-secure.co.jp/blog/nist-cybersecurity-framework) がわかりやすく概要がまとまっている。|
 
 ### Application - Security
 |Lv.|タイトル|動画URL|備考|
