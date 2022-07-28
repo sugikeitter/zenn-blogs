@@ -263,6 +263,11 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |`300`| [PrincipalTag、ResourceTag、RequestTag、および TagKeys 条件キーを使用して、タグベースの制限のための IAM ポリシーを作成するにはどうすればよいですか? - AWS ナレッジセンター](https://aws.amazon.com/jp/premiumsupport/knowledge-center/iam-tag-based-restriction-policies/)| -| PrincipalTag、ResourceTag、RequestTag、および TagKeys の各条件キーを使用したサンプルの IAM ポリシーが記載されている。[AWSのABAC(タグに基づいたアクセス制御)の設計/運用のポイントを考える - DevelopersIO](https://dev.classmethod.jp/articles/aws-abac-tips/) も併せて読むとわかりやすい。|
 |`300`| [Principal 要素で IAM ロールを指定するのと IAM ロールを引き受けたセッションを指定するのは何が違うのか？ 72 個のパターンで考えてみた - DevelopersIO](https://dev.classmethod.jp/articles/principal-element-iam-role-or-role-session/)| -| リソースベースポリシーの Principal 要素で `{ "AWS": "arn:aws:iam::AWS-account-ID:role/role-name" }` と `{ "AWS": "arn:aws:sts::AWS-account-ID:assumed-role/role-name/role-session-name" }` を指定した場合の違いがまとめられている。|
 
+## Inspector
+|Lv.|タイトル|動画URL|備考|
+|---|---|---|---|
+|`200`| [新しい Amazon Inspector – クラウドワークロード向けの脆弱性管理が改善および自動化 - Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/improved-automated-vulnerability-management-for-cloud-workloads-with-a-new-amazon-inspector/)| -| 2021 年 11 月 29 日（米国時間）にリリースされた Inspector の機能概要について。それまでの Inspector は Inspector Classic と呼ばれる。|
+
 ## Kinesis
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
