@@ -579,6 +579,7 @@ AWS ユーザーガイドやデベロッパーガイド以外で役立つリン�
 |Lv.|タイトル|動画URL|備考|
 |---|---|---|---|
 |`200`| [AWS における安全な Web アプリケーションの作り方 - AWS Summit Online 2021](https://d1.awsstatic.com/events/jp/2021/summit-online/AWS-55_AWS_Summit_Online_2021_Developing-Secure-Web-Applications-on-AWS.pdf)| [`Youtube`](https://youtu.be/TxBg7FWMAUA)| IPA の「安全なウェブサイトの作り⽅」や OWASP Top 10 に沿った考え方が記載されている。|
+|`200`| [サーバーレスのセキュリティリスク - AWS Lambdaにおける脆弱性攻撃と対策 - Flatt Security Blog](https://blog.flatt.tech/entry/lambda_and_serverless_security)| -| Lambda 自体の脆弱性ではなく、Lambda 関数で実行するプログラム自体に脆弱性があると IAM ロールのクレデンシャルが奪われたりなどしてしまうので気をつけてねというお話。|
 |`300`| [2020年版 チーム内勉強会資料その1 : JSON Web Token - r-weblife](https://ritou.hatenablog.com/entry/2020/06/08/050000)| -| Cognito でも利用されている JSON Web Token(JWT) について。|
 
 ### Audit & Compliance - Security
